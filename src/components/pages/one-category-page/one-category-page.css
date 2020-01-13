@@ -1,0 +1,105 @@
+
+.productsPageContent .productsPageHeader {
+  height: 176px;
+  padding-top: 50px
+}
+.productsPageContent {
+  background-image: url(../../../img/icons/fonTechniquePages.png);
+  background-repeat: repeat;
+  padding-bottom: 13vw;
+
+}
+.contactPageContent .productsPageHeader{
+height: 80px;
+padding-top: 0;
+margin-bottom: 50px;
+}
+.templateProductsOne,
+.templateProductsThree {
+    display: flex;
+    position: relative
+}
+
+.templateProductsOne,
+.templateProductsThree,
+.templateProductsTwo {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap
+}
+
+.templateProductsTwo {
+    margin-top: 130px
+}
+
+.templateProductsThree {
+    margin-top: 85px;
+    padding-bottom: 860px;
+    margin-bottom: 70px
+}
+.productContainer {
+  position: relative;
+}
+.responseProducts {
+    margin-bottom: 100px
+}
+
+.product1 {
+    width: 40vw;
+    margin-bottom: 14vw
+}
+
+.product2 {
+    width: 26vw;
+    top: -200px;
+    margin-left: 10%
+}
+
+.product3 {
+    position: absolute;
+    bottom: -10vw;
+    right: 80px;
+    width: 37vw
+}
+
+.product4 {
+    top: -10vw
+}
+
+.product5 {
+    margin-top: 5vw;
+    margin-right: 0;
+    margin-left: auto
+}
+
+.product6 {
+    width: 40vw;
+    margin: auto
+}
+
+.product4,
+.product5 {
+    width: calc(50vw - 15px)
+}
+
+.product7 {
+    width: 45vw;
+    margin-left: 5vw
+}
+
+.product8 {
+    width: 45vw;
+    margin-left: auto;
+    margin-right: 0;
+    top: 17vw
+}
+
+.product9 {
+    position: absolute;
+    bottom: -7vw;
+    width: 40vw;
+    left: 10vw;
+    height: auto
+}

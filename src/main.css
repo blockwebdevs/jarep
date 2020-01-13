@@ -1,0 +1,1538 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap);
+/* @font-face {
+    font-family: 'WC Mano Negra Bta';
+    src: url('/fronts/fonts/WCManoNegraBta.woff2') format('woff2'),
+        url('/fronts/fonts/WCManoNegraBta.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+button,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: bottom;
+    box-sizing: border-box !important;
+    font-family: Source Sans Pro
+}
+
+a:focus,
+abbr:focus,
+acronym:focus,
+address:focus,
+applet:focus,
+article:focus,
+aside:focus,
+audio:focus,
+b:focus,
+big:focus,
+blockquote:focus,
+body:focus,
+button:focus,
+canvas:focus,
+caption:focus,
+center:focus,
+cite:focus,
+code:focus,
+dd:focus,
+del:focus,
+details:focus,
+dfn:focus,
+div:focus,
+dl:focus,
+dt:focus,
+em:focus,
+embed:focus,
+fieldset:focus,
+figcaption:focus,
+figure:focus,
+footer:focus,
+form:focus,
+h1:focus,
+h2:focus,
+h3:focus,
+h4:focus,
+h5:focus,
+h6:focus,
+header:focus,
+hgroup:focus,
+html:focus,
+i:focus,
+iframe:focus,
+img:focus,
+ins:focus,
+kbd:focus,
+label:focus,
+legend:focus,
+li:focus,
+mark:focus,
+menu:focus,
+nav:focus,
+object:focus,
+ol:focus,
+output:focus,
+p:focus,
+pre:focus,
+q:focus,
+ruby:focus,
+s:focus,
+samp:focus,
+section:focus,
+small:focus,
+span:focus,
+strike:focus,
+strong:focus,
+sub:focus,
+summary:focus,
+sup:focus,
+table:focus,
+tbody:focus,
+td:focus,
+tfoot:focus,
+th:focus,
+thead:focus,
+time:focus,
+tr:focus,
+tt:focus,
+u:focus,
+ul:focus,
+var:focus,
+video:focus {
+    outline: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    line-height: 1
+}
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.index {
+    margin: 20px 0 40px
+}
+
+h1.indes {
+    padding-top: 200px
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: -.03px;
+    text-align: left;
+    color: #000;
+    line-height: 24px
+}
+
+body {
+    background-color: #fff
+}
+
+input,
+textarea {
+    border: 1px solid #000;
+    background-color: transparent;
+    line-height: 40px;
+    height: 40px;
+    padding-left: 10px;
+    width: 100%
+}
+
+label {
+    font-size: 24px;
+    color: #000;
+    letter-spacing: -.04px
+}
+
+input.butt {
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    background: #1f3257;
+    box-shadow: inset 0 -7px 3px 0 rgba(0, 0, 0, .5)
+}
+
+textarea {
+    line-height: 24px;
+    padding: 20px;
+    font-weight: 300
+}
+
+input:active,
+input:focus {
+    outline: none
+}
+
+h3 {
+    font-size: 30px;
+    color: #000;
+    letter-spacing: .56px;
+    font-weight: 700;
+    line-height: 50px
+}
+
+a {
+    font-size: 24px
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none
+}
+
+a.logo {
+    display: block;
+    margin: 0 20px
+}
+a.logo.logoMobile{
+  display: none;
+}
+
+a.logo img {
+    width: 120px
+}
+
+img {
+    width: 100%
+}
+
+.butt {
+    background-color: #4c493f;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 210px;
+    line-height: 40px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer
+}
+
+.butt:hover {
+    box-shadow: none;
+    color: #fff
+}
+
+.butt:active {
+    font-size: 18px
+}
+
+#burger {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    z-index: 10;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    float: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: none
+}
+
+#burger:after,
+#burger:before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    border-radius: 0;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    background-color: #000;
+    transition: all .2s ease-out
+}
+
+#burger:after {
+    bottom: 6px
+}
+
+#burger:before {
+    top: 6px
+}
+
+#burger .iconBar {
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    margin: 14px 0;
+    background-color: #000;
+    transition: all .2s ease-out;
+    border-radius: 3px
+}
+
+#burger.burgerOpen .iconBar {
+    width: 0
+}
+
+#burger.burgerOpen:after {
+    transform: rotate(-45deg);
+    bottom: 14px
+}
+
+#burger.burgerOpen:before {
+    transform: rotate(45deg);
+    top: 14px
+}
+
+
+
+@media only screen and (max-width:1200px) {
+    .oneProductBlock .productOptions {
+        position: static
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #burger {
+        display: block
+    }
+    .butt {
+        font-size: 16px
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 35px
+    }
+
+
+}
+
+.oneProductBlock .productOptions .selectBox .option{
+    width: 100%;
+}
+
+
+header {
+    height: 60px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    position: fixed
+}
+
+.menuLeft {
+    background-image: url(./img/icons/homeFon.png);
+    background-size: 10vw;
+    background-repeat: repeat;
+    background-color: #cfa874;
+    display: flex;
+    height: 60px;
+    width: 50vw;
+    align-items: center;
+    margin-bottom: 0
+}
+
+.menuLeft a,
+.menuLeft span {
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 25px;
+    line-height: 60px
+}
+
+.menuLeft li {
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+    padding-right: 15px
+}
+
+.menuLeft li:nth-child(5) {
+    min-width: 120px
+}
+
+.menuLeft li:hover .subMenu {
+    opacity: 1;
+    visibility: visible
+}
+
+.menuLeft li:first-child,
+.menuLeft li:nth-child(2) {
+    text-align: left;
+    cursor: pointer
+}
+
+.menuLeft li:first-child:hover span,
+.menuLeft li:nth-child(2):hover span,
+.menuLeft li:nth-child(3) span:hover,
+.menuLeft li:nth-child(4) span:hover {
+    background-image: url(./img/icons/iconOnHover.svg) ;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px;
+    font-weight: bold;
+
+}
+.menuLeft > li{
+  cursor: pointer;
+  white-space: nowrap;
+}
+.menuLeft .itemButt.itemButtMobile{
+  display: none;
+}
+.menuLeft > li.pageActive.itemButt:nth-child(1),
+.menuLeft > li.pageActive.itemButt:nth-child(2),
+.menuLeft > li.pageActive.itemButt:nth-child(3) span,
+.menuLeft > li.pageActive.itemButt:nth-child(4) span {
+  background-image: url(./img/icons/iconOnHover.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px;
+
+}
+.menuLeft > li.pageActive.itemButt > span{
+  font-weight: bold;
+}
+.setList {
+    display: block;
+    right: -106%;
+    top: 0px;
+    min-width: 100%;
+    width: 110%;
+    position: absolute;
+    /* background-image: url(./img/icons/homeFon.png); */
+    background-size: 10vw;
+    background-repeat: repeat;
+    background-color: #cfa874;
+    min-height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease;
+    box-shadow: 10px 6px 10px 0 rgba(0, 0, 0, .5)
+}
+@media only screen and (min-width: 1000px) {
+  .menuLeft li:nth-child(1),
+  .menuLeft li:nth-child(2),
+  .menuLeft li:nth-child(4),
+  .menuLeft li:nth-child(3){
+      width: 20%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .menuLeft li:nth-child(1),
+  .menuLeft li:nth-child(2){
+      width: 20%;
+    }
+}
+
+.menuLeft li:nth-child(5) span {
+    display: block
+}
+
+.menuLeft li:nth-child(5) a {
+    display: flex
+}
+
+.menuLeft span {
+    padding-left: 30px
+}
+
+.subMenu {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    z-index: 2;
+    min-width: 360px;
+    background-image: url(./img/icons/homeFon.png);
+    background-size: 10vw;
+    background-repeat: repeat;
+    background-color: #cfa874;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.subMenu li {
+    width: 100%;
+    height: 45px;
+    text-align: left;
+    line-height: 45px;
+}
+.menuLeft .subMenu li{
+  width: 100%;
+}
+.subMenu a {
+    padding-left: 30px;
+    white-space: nowrap;
+    line-height: 45px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px
+}
+.subMenu li.submenuButton{
+    position: static;
+}
+
+.subMenu li.submenuButton a{
+  display: block;
+  line-height: 45px;
+}
+.subMenu > li:hover > a{
+  font-weight: 700;
+  background-image: url(./img/icons/iconOnHover.svg)
+}
+.subMenu li.submenuButton .setList a:hover{
+  font-weight: 700;
+  background-image: url(./img/icons/iconOnHover.svg)
+}
+.subMenu li.submenuButton:hover > a {
+    font-weight: 700;
+    background-image: url(./img/icons/iconOnHover.svg)
+}
+.subMenu li.submenuButton:hover{
+  background-color: #cfa874;
+}
+
+.subMenu li.submenuButton:hover .setList{
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+.menuCabinet {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 60px;
+    width: 21vw;
+    min-width: 400px;
+    background-image: url(./img/icons/homeFon.png);
+    background-size: 10vw;
+    background-repeat: repeat;
+    background-color: #cfa874
+}
+
+.menuCabinet .buttMenu {
+    height: 60px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: 50%
+}
+
+.menuCabinet .buttMenu a {
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    cursor: pointer
+}
+
+
+.menuCabinet .buttWish {
+    background-image: url(./img/icons/wish.svg);
+    background-size: 25px
+}
+
+.menuCabinet .buttCart {
+    background-image: url(./img/icons/cart.svg);
+    background-size: 18px
+}
+
+.menuCabinet .buttCart a {
+    position: relative
+}
+
+.menuCabinet .buttCart .nrArt {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background-image: url(./img/icons/star.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    top: 5px;
+    right: -7px
+}
+.menuCabinet .buttWish .nrArt {
+
+    text-align: center;
+    font-size: 13px;
+    color: #000000;
+    top: 5px;
+    right: -7px;
+    line-height: 60px;
+
+}
+.menuCabinet .buttAvatar {
+    background-image: url(./img/icons/avatar.svg);
+    background-size: 18px;
+    cursor: pointer
+}
+
+.menuCabinet .buttSettings {
+    width: auto
+}
+
+.menuCabinet .buttSettings a {
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative
+}
+
+.menuCabinet .buttSettings .flag {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(./img/icons/moldova.svg);
+    background-size: 20px 20px;
+    background-position: 0 center;
+    width: 50px;
+    height: 40px;
+    margin-left: 3px
+}
+
+.menuCabinet .menuOpen {
+    position: fixed;
+    background-image: url(./img/icons/homeFon.png);
+    background-size: 10vw;
+    background-repeat: repeat;
+    background-color: #cfa874;
+    top: 60px;
+    right: 0;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5);
+    z-index: 1;
+    height: 0;
+    transition: height .3s ease;
+    width: 25vw;
+    min-width: 400px;
+    overflow: hidden
+}
+
+.menuCabinet .menuOpen.menuOpenDisplay {
+    height: auto
+}
+
+.menuCabinet .menuOpenResults {
+    padding: 0 20px
+}
+
+.fullWidthHeader .headerBlock {
+    background-image: url(./img/icons/homeFon.png);
+    background-size: 10vw;
+    background-repeat: repeat;
+    background-color: #cfa874;
+    transition: background-image .3s ease;
+}
+
+.headerBlock {
+    display: flex;
+    justify-content: space-between
+}
+.menuLeft .menuBack{
+  display: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .headerBlock,
+    header {
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5)
+    }
+    .menuLeft {
+        width: calc(100vw - 250px);
+        box-shadow: none
+    }
+    .menuLeft a,
+    .menuLeft span {
+        font-size: 16px;
+        padding-left: 23px
+    }
+    a.logo img {
+        width: 100px
+    }
+    .menuCabinet {
+        width: 250px;
+        box-shadow: none
+    }
+    .menuCabinet .buttWish {
+        background-size: 25px
+    }
+    .menuCabinet .buttAvatar,
+    .menuCabinet .buttCart {
+        background-size: 22px
+    }
+    .menuCabinet .buttSettings {
+        background-size: 34px
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header {
+        height: 100px;
+        background-image: url(./img/icons/homeFon.png);
+        background-size: cover;
+    }
+    .subMenu li.submenuButton:hover{
+      background-color: transparent;
+    }
+    .headerBlock.secondLevel .menuCabinet {
+        z-index: 12
+    }
+    .headerBlock.secondLevel .buttMenu.buttSettings,
+    .headerBlock.secondLevel .menuLeft {
+        left: 0;
+        transition: left .3s ease
+    }
+    .menuLeft > li.pageActive.itemButt {
+      background-position: 20px !important;
+    }
+    .menuLeft .itemButt.itemButtMobile{
+      display: block;
+      line-height: 40px;
+      height: 40px;
+    }
+    .menuLeft .itemButt.itemButtMobile span{
+      background-image: none !important;
+      line-height: 40px;
+    }
+    .menuLeft .itemButt.itemButtMobile span a{
+      line-height: 40px;
+    }
+    .menuLeft > li.pageActive.itemButt:nth-child(4) span,
+    .menuLeft > li.pageActive.itemButt:nth-child(3) span {
+      background-image: none !important;
+    }
+    .menuLeft {
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        height: calc(100vh - 100px);
+        width: 300px;
+        top: 100px;
+        left: -300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-size: cover;
+        z-index: 11;
+        background-image: url(./img/icons/homeFon.png);
+        transition: left .3s ease;
+        overflow: scroll;
+
+    }
+    .menuLeft li {
+        line-height: 50px;
+        width: auto;
+        text-align: left;
+
+    }
+    .menuLeft > li span{
+      margin-left: 20px;
+    }
+    .menuLeft li:hover>.subMenu {
+        left: 0
+    }
+    .menuLeft li span {
+        padding-left: 30px
+    }
+    .menuLeft li span a {
+        padding-left: 0
+    }
+    .menuLeft .subMenu{
+      background-image: url(./img/icons/homeFon.png);
+      background-size: cover;
+      box-shadow: none;
+      opacity: 1;
+      visibility: visible;
+    }
+    .menuLeft .subMenu li{
+      line-height: 35px;
+      padding-left: 30px;
+    }
+    .menuLeft li {
+        text-align: left;
+        padding-left: 0;
+        background-image: url(./img/icons/iconOnHover.svg);
+        background-size: 20px;
+        background-position: 20px;
+        background-repeat: no-repeat
+    }
+    .menuLeft li:hover{
+      background-image: url(./img/icons/iconOnHover.svg);
+      background-size: 20px;
+      background-position: 20px;
+    }
+    .menuLeft>li:hover span{
+      background-image: none !important;
+    }
+    .menuLeft li span:hover{
+      background-image: none !important
+    }
+    .menuLeft  .subMenu li:hover a{
+      background-image: none !important
+    }
+    .menuLeft .menuBack{
+      width: 100%;
+      display: block;
+      /* background-image: url(./img/icons/menuBack.svg); */
+      background-color: rgba(0, 0, 0, 0.3);
+
+    }
+    .menuLeft li:hover .subMenu .menuBack span{
+      background-image: none;
+    }
+    .menuLeft .menuBack span{
+      display: block;
+      line-height: 45px;
+      margin-left: 0;
+      padding-left: 23px;
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-right: 10px;
+        font-weight: 300 !important;
+    }
+    .menuLeft .menuBack:hover{
+      /* background-image: url(./img/icons/menuBack.svg) !important; */
+    }
+    .subMenu {
+        position: fixed;
+        width: 300px;
+        min-width: 300px;
+        top: 100px;
+        height: calc(100vh - 100px);
+        background-size: 50%;
+        z-index: 20;
+        left: -300px;
+        transition: left .3s ease;
+    }
+    .subMenu li:last-child {
+        position: static;
+        min-width: auto;
+        width: 100%
+    }
+    .subMenu li:last-child a {
+        display: inline
+    }
+
+    .menuLeft .subMenu li {
+        background-position: 20px;
+        line-height: 45px;
+        height: 45px;
+        display: block;
+    }
+    .menuLeft .subMenu li a{
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        line-height: 45px;
+    }
+
+    a.logo{
+      margin: 0;
+
+    }
+    a.logo span{
+      padding: 0;
+      margin: 0;
+    }
+    .menuLeft a.logo img{
+      margin-left: 8px;
+      margin-bottom: 3px;
+    }
+    .menuLeft a.logo{
+      align-items: center;
+    }
+    .menuLeft > li:nth-child(5)  {
+      background: rgba(155, 148, 131, 0.4) !important;
+      display: block;
+      padding: 0;
+      width: 100%;
+      margin-bottom: 70px;
+    }
+    .menuLeft .itemButt.itemButtMobile,
+    .menuLeft .itemButt.itemButtMobile span{
+      background-image: none !important;
+    }
+    a.logo.logoMobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        align-items: center;
+        background-color: #cfa874;
+        border-bottom: 1px solid #4c493f;
+        z-index: 7;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+    }
+    a.logo.logoMobile{
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+    a.logo img {
+        display: block;
+        width: 120px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .menuCabinet {
+        position: fixed;
+        height: 50px;
+        top: 50px;
+        width: 83.4vw;
+        min-width: 300px;
+        left: auto;
+        right: 0;
+        background-size: 30%;
+        z-index: 11
+    }
+    .menuCabinet .buttMenu {
+        height: 50px;
+
+    }
+    .menuCabinet .buttMenu span {
+        line-height: 50px;
+        padding: 0
+    }
+
+    .menuCabinet .buttWish {
+        background-size: 30px 30px;
+        background-position: center 11px;
+    }
+    .menuCabinet .buttCart {
+        background-size: 22px
+    }
+    .menuCabinet .buttCart .nrArt {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat;
+        top: 2px;
+        right: -20%;
+        line-height: 25px;
+        font-size: 14px
+    }
+    .menuCabinet .buttWish .nrArt{
+      line-height: 50px;
+    }
+    .menuCabinet .buttAvatar {
+        background-size: 23px
+    }
+    .menuCabinet .buttAvatar .menuOpenResults {
+        padding-right: 20px
+    }
+    .menuCabinet .buttSettings {
+        width: auto;
+    }
+    .menuCabinet .buttSettings .flag{
+      width: 20px;
+    }
+    .menuCabinet .socialNet {
+        display: none
+    }
+    .menuCabinet .menuOpen {
+        padding-right: 0;
+        height: 0;
+        transition: height .3s ease;
+        width: 360px;
+        min-width: 360px;
+        overflow: hidden
+    }
+    .socialNetworks {
+        display: none;
+    }
+    .socialNetworks.socialNetworksMobile{
+      display: flex;
+      top: auto;
+      bottom: 0;
+      left: 0;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      position: static;
+      margin-left: 37px;
+      margin-top: 25px;
+    }
+        .socialNetworks a, .socialNetworks li{
+          height: 45px;
+          padding: 0 !important;
+          margin: 0 !important;
+          display: block !important;
+        }
+        .socialNetworks li {
+          background-size: 125% 125%;
+          /* background-image: url(./img/icons/backNetworksDark2.svg); */
+          background-position: center center;
+          margin-bottom: 15px !important;
+        }
+        .socialNetworks li:hover{
+          background-size: 125% 125%;
+          /* background-image: url(./img/icons/backNetworksDark2.svg); */
+          background-position: center center;
+        }
+.socialNetworks li:nth-child(5){
+  width: 61px;
+  min-width: 61px;
+  background-size: 125% 125%;
+  /* background-image: url(./img/icons/backNetworksDark2.svg) !important; */
+  background-position: center center;
+}
+
+}
+
+.modals .modal-dialog {
+    margin: 0 0 0 auto
+}
+
+.modals .modal-body {
+    padding-top: 60px
+}
+
+.modals .modal-content {
+    height: 100vh;
+    background-image: url(./img/icons/fonTechniquePages.png);
+    background-repeat: repeat
+}
+
+.modals .textModal ol {
+    list-style-type: decimal;
+    list-style-position: inside
+}
+
+.modals .textModal ol li {
+    font-size: 14px;
+    line-height: 1.9;
+    font-family: Source Sans Pro
+}
+
+.alertAddToCart {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    display: none
+}
+
+.sale{
+    padding-left:  15px;
+    padding-right: 15px;
+    padding-top: 150px;
+  }
+  .sale .oneProductBlock{
+    margin-bottom: 30px;
+  }
+  
+  .homeContent {
+      display: flex;
+      background-image: url(./img/icons/homeFon.png);
+      background-position: 50%;
+      background-size: cover;
+      padding-bottom: 60px;
+  }
+  
+  .homeLeft {
+      width: 50vw
+  }
+  
+  .homeLeft .imgBloc {
+      padding-top: 90px;
+      width: 40vw;
+  }
+  
+  .homeLeft .imgBloc,
+  .homeLeft img {
+      margin-left: auto;
+      margin-right: auto
+  }
+  
+  .homeLeft img {
+      display: block;
+      margin-bottom: 30px
+  }
+  
+  .homeLeft .butts {
+      display: flex;
+      justify-content: space-between
+  }
+  .homeLeft .butts div{
+    width: calc(50% - 15px);
+  }
+  .homeLeft .butts .butt {
+      margin: 0;
+      width: 100%;
+      line-height: 60px;
+  }
+  
+  .homeLeft .deliveryBloc {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px
+  }
+  
+  .homeLeft .deliveryBloc:nth-child(3) {
+      margin-top: 30px
+  }
+  
+  .homeLeft .item {
+      width: calc(50% - 15px);
+      background-color: #000;
+      position: relative;
+  }
+  .homeLeft .buttBloc{
+    position: absolute;
+    bottom: 30%;
+    text-align: center;
+    width: 100%;
+  }
+  .homeLeft .buttBloc .butt{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    width: 100%;
+    box-shadow: none;
+    height: auto;
+  }
+  .homeLeft .buttBloc .butt span{
+    opacity: 0.9;
+    background-color: rgba(76, 73, 64, 0.64);
+    width: 260px;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+  }
+  .homeLeft .buttBloc .butt span:hover{
+    background-color: rgba(76, 73, 64, 1);
+  }
+  .homeLeft .item{
+    display: block;
+  }
+  .homeLeft .item img{
+    margin-bottom: 0;
+  }
+  
+  
+  .homeLeft p {
+      color: #fff;
+      text-align: center
+  }
+  
+  .homeLeft p:first-child {
+      font-weight: 700;
+      margin-bottom: 20px
+  }
+  
+  .slideHome {
+      width: 50vw;
+  }
+  
+  .slideHome .slick-arrow {
+      position: absolute;
+      bottom: 40%;
+      font-size: 0;
+      border: 0;
+      padding: 0;
+      background-color: rgba(215, 180, 130, 0.5);
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: 40%;
+      height: 70px;
+      width: 100px;
+      z-index: 2;
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5)
+  }
+
+  .slideHome .slick-arrow:before{
+      display: none;
+  }
+  
+  .slideHome .slick-arrow:active {
+      background-size: 35%;
+      background-color: rgba(215, 180, 130, 0.8);
+  }
+  
+  .slideHome .slick-arrow:focus {
+      outline: 0
+  }
+  
+  .slideHome .slick-prev {
+      left: 0;
+      background-image: url(./img/icons/prev.svg)
+  }
+  
+  .slideHome .slick-next {
+      right: 0;
+      background-image: url(./img/icons/next.svg)
+  }
+  
+  .slideHome .slick-list {
+      padding: 0!important
+  }
+  
+  .slideHome img {
+      width: 100%;
+      display: block
+  }
+  body{
+    padding-right: 0 !important ;
+  }
+
+
+  .oneProductContent {
+    background-image: url(./img/icons/fonTechniquePages.png);
+    background-repeat: repeat;
+    padding-top: 70px
+}
+
+.oneProductContent .container {
+    max-width: 1450px
+}
+
+.oneProductContent .galleryProduct img,
+.oneProductContent .galleryProduct video {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2)
+}
+.oneProductContent .galleryProduct .col-md-6:nth-child(3){
+  margin-bottom: 0;
+}
+.oneProductContent .galleryProduct p {
+    padding: 0 15px;
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 1.4px;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0
+}
+
+.oneProductContent .galleryProduct b {
+    font-weight: 700
+}
+
+
+.oneProductContent .descrItem {
+    position: sticky;
+    z-index: 2;
+    top: 120px;
+    background-image: url(./img/icons/fonTechniquePages.png);
+    background-repeat: repeat;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+.oneProductContent .descrItem .name {
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 1.23px
+}
+
+.oneProductContent .descrItem .price {
+    font-size: 30px;
+    color: #d43d44;
+    letter-spacing: 1.27px;
+    margin: 20px 0
+}
+
+.oneProductContent .descrItem .color {
+    font-size: 20px;
+    color: #000;
+    letter-spacing: .68px
+}
+
+.oneProductContent .productOptions {
+    padding: 40px 0
+}
+
+.oneProductContent .productOptions .selectBox,
+.oneProductContent .productOptions .selectBox .options {
+    width: 100%
+}
+
+.oneProductContent .productOptions .buttAddToCart {
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    background-color: #000;
+    height: 40px;
+    cursor: pointer;
+    background-image: url(./img/icons/cartWhite.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 20px
+}
+
+.oneProductContent .textSlide {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 1
+}
+
+.oneProductContent h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0 20px
+}
+.oneProductContent {
+    background-image: url(./img/icons/fonTechniquePages.png);
+    background-repeat: repeat;
+    padding-top: 70px
+}
+
+.oneProductContent .container {
+    max-width: 1450px
+}
+
+.oneProductContent .galleryProduct img,
+.oneProductContent .galleryProduct video {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2)
+}
+.oneProductContent .galleryProduct .col-md-6:nth-child(3){
+  margin-bottom: 0;
+}
+.oneProductContent .galleryProduct p {
+    padding: 0 15px;
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 1.4px;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0
+}
+
+.oneProductContent .galleryProduct b {
+    font-weight: 700
+}
+
+
+.oneProductContent .descrItem {
+    position: sticky;
+    z-index: 2;
+    top: 120px;
+    background-image: url(./img/icons/fonTechniquePages.png);
+    background-repeat: repeat;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+.oneProductContent .descrItem .name {
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 1.23px
+}
+
+.oneProductContent .descrItem .price {
+    font-size: 30px;
+    color: #d43d44;
+    letter-spacing: 1.27px;
+    margin: 20px 0
+}
+
+.oneProductContent .descrItem .color {
+    font-size: 20px;
+    color: #000;
+    letter-spacing: .68px
+}
+
+.oneProductContent .productOptions {
+    padding: 40px 0
+}
+
+.oneProductContent .productOptions .selectBox,
+.oneProductContent .productOptions .selectBox .options {
+    width: 100%
+}
+
+.oneProductContent .productOptions .buttAddToCart {
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    background-color: #000;
+    height: 40px;
+    cursor: pointer;
+    background-image: url(./img/icons/cartWhite.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 20px
+}
+
+.oneProductContent .textSlide {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 1
+}
+
+.oneProductContent h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0 20px
+}
+

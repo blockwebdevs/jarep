@@ -1,0 +1,986 @@
+{
+  "productsSlideHome": 
+    {
+      "ro": [
+        {
+          "id": "0",
+          "src": "http://ja.publicitate.top/images/sets/md/5da8e74866be7web.1920x2560.2B-2.vintage-min.jpg"
+        },
+        {
+          "id": "1",
+          "src": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg"
+        },
+        {
+          "id": "2",
+          "src": "http://ja.publicitate.top/images/sets/md/5dc57cb1596beweb.1920x2560.1A-2.retro-min.jpg"
+        }
+      ],
+      "en": [
+        {
+          "id": "0",
+          "src": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg"
+        },
+        {
+          "id": "1",
+          "src": "http://ja.publicitate.top/images/sets/md/5da8e74866be7web.1920x2560.2B-2.vintage-min.jpg"
+        },
+        {
+          "id": "2",
+          "src": "http://ja.publicitate.top/images/sets/md/5da8e74866be7web.1920x2560.2B-2.vintage-min.jpg"
+        },
+        {
+          "id": "3",
+          "src": "http://ja.publicitate.top/images/sets/md/5dc57cb1596beweb.1920x2560.1A-2.retro-min.jpg"
+        }
+      ]
+    },
+  "product":
+    {
+      "ro": {
+        "dresses": [
+          {
+            "id": "01",
+            "name": "Rochie Alba",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "02",
+            "name": "Rochie neagra",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "03",
+            "name": "Rochie rosie",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "04",
+            "name": "Rochie verde",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          }
+        ],
+        "skirts": [
+          {
+            "id": "05",
+            "name": "Fusta Alba",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "06",
+            "name": "Fusta neagra",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "07",
+            "name": "Fusta rosie",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "08",
+            "name": "Fusta verde",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          }
+        ]
+      },
+      "en": {
+        "dresses": [
+          {
+            "id": "01",
+            "name": "Dress white",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "02",
+            "name": "Dress black",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "03",
+            "name": "Dress red",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "04",
+            "name": "Dress green",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          }
+        ],
+        "skirts": [
+          {
+            "id": "05",
+            "name": "Skirt white",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "06",
+            "name": "Skirt black",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "07",
+            "name": "Skirt red",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          },
+          {
+            "id": "08",
+            "name": "Skirt green",
+            "price": "230",
+            "priceReduce": "200",
+            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+            "size": {
+              "m": {
+                "title": "m",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "s": {
+                "title": "s",
+                "stock": "5",
+                "statut": "Sunt citeva"
+              },
+              "l": {
+                "title": "l",
+                "stock": "0",
+                "statut": "Stoc epuizat"
+              },
+              "xl": {
+                "title": "xl",
+                "stock": "12",
+                "statut": "Stoc prezent"
+              }
+            }
+          }
+        ]
+      } 
+    },
+  "oneProduct": {
+    "ro": [
+      {
+        "id": "01",
+        "name": "Rochie Alba",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "02",
+        "name": "Rochie neagra",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "03",
+        "name": "Rochie rosie",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "04",
+        "name": "Rochie verde",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "05",
+        "name": "Fusta Alba",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "06",
+        "name": "Fusta neagra",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "07",
+        "name": "Fusta rosie",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "08",
+        "name": "Fusta verde",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      }
+    ],
+    "en": [
+      {
+        "id": "01",
+        "name": "Dress white",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "02",
+        "name": "Dress black",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "03",
+        "name": "Dress red",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "04",
+        "name": "Dress green",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "05",
+        "name": "Skirt white",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "06",
+        "name": "Skirt black",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "07",
+        "name": "Skirt red",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      },
+      {
+        "id": "08",
+        "name": "Skirt green",
+        "price": "230",
+        "priceReduce": "200",
+        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "size": {
+          "m": {
+            "title": "m",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Sunt citeva"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Stoc epuizat"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stoc prezent"
+          }
+        }
+      }
+    ]
+  }
+}

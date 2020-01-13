@@ -1,0 +1,90 @@
+{
+  "ro": {
+      "products": {
+            "dresses": "Rochii",
+            "skirts": "Fuste",
+            "2": "Pantaloni",
+            "3": "Honorace"
+        },
+        "collections": {
+            "vintage": {
+                "title": "Vintage edition",
+                "sets": [
+                    "Mix din trecut",
+                    "Vintage Casic Duet",
+                    "Navy - timpul nu conteaza"
+                ]
+            },
+            "retro": {
+                "title": "Retro Memories",
+                "sets": [
+                    "Melodii din trecut",
+                    "Retro Casic Duet",
+                    "Navy - mereu in voga"
+                ]
+            },
+            "cosmo": {
+                "title": "Cosmo-space",
+                "sets": [
+                    "Mix din trecut",
+                    "Cosmo Casic Duet",
+                    "Navy - timpul nu conteaza",
+                    "alt set",
+                    "alt setsadfas"
+                ]
+            },
+            "casual": {
+                "title": "Casual",
+                "sets": [
+                    "Mix din trecut",
+                    "Vintage Casic Duet",
+                    "Navy - timpul nu conteaza"
+                ]
+            }
+        }
+    },
+    
+    "en": {
+        "products": {
+            "dresses": "Dresses",
+            "skirts": "Skirts",
+            "2": "Shoeses"
+        },
+            "collections": {
+                "vintage": {
+                    "title": "Vintage edition",
+                    "sets": [
+                        "Mix din trecut",
+                        "Vintage Casic Duet",
+                        "Navy - timpul nu conteaza"
+                    ]
+                },
+                "retro": {
+                    "title": "Retro Memories",
+                    "sets": [
+                        "Melodii din trecut",
+                        "Retro Casic Duet",
+                        "Navy - mereu in voga"
+                    ]
+                },
+                "cosmo": {
+                    "title": "Cosmo-space",
+                    "sets": [
+                        "Mix din trecut",
+                        "Cosmo Casic Duet",
+                        "Navy - timpul nu conteaza",
+                        "alt setsadfa",
+                        "alt setacx"
+                    ]
+                },
+                "casual": {
+                    "title": "Casual",
+                    "sets": [
+                        "Mix din trecut",
+                        "Vintage Casic Duet",
+                        "Navy - timpul nu conteaza"
+                    ]     
+                }
+            }
+    }
+}

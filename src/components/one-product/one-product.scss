@@ -1,0 +1,240 @@
+.oneProductBlock {
+  position: relative;
+  
+  a{
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block
+  }
+  .productDescr {
+    position: relative;
+    background-image: url(../../img/icons/fonTechniquePages.png);
+    background-repeat: repeat
+  }
+  .price {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    span {
+      font-size: 20px;
+      line-height: 30px;
+      color: #000;
+      letter-spacing: 0;
+      display: block;
+      width: auto;
+      margin: 0 20px;
+
+      &:nth-child(2) {
+        text-decoration: line-through brown solid
+      }
+    }
+  }
+
+  .reduce {
+    position: absolute;
+  }
+
+  .productOptions {
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    .selectBox {
+      width: 100px;
+      position: relative;
+      .options{
+        width: 150px;
+        min-width: 150px;
+        background-image: url(../../img/icons/fonTechniquePages.png);
+        background-repeat: repeat;
+        height: 0;
+        overflow: hidden;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        margin-top: -1px;
+        transition: height .3s ease;
+        min-width: 190px;
+        z-index: 5;
+      }
+      span {
+        font-size: 14px;
+        color: #4c493f;
+        letter-spacing: 0;
+        text-align: left;
+        line-height: 40px
+      }
+      .optionSelectedBox {
+        border: 1px solid #000;
+        padding-left: 10px;
+        height: 40px;
+        cursor: pointer;
+        background-image: url(../../img/icons/arrowDown.svg);
+        background-repeat: no-repeat;
+        background-position: 95%;
+        white-space: nowrap;
+        overflow: hidden;
+        line-height: 40px
+      }
+      .optionSelectedBox.valueSelected {
+        text-transform: uppercase;
+        border-color: #fff;
+        background-color: #2F2F2F;
+        color: #fff;
+        background-image: url(../../img/icons/arrowDownWhite.svg);
+      }
+      .option {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        span {
+          display: block;
+          border: 0;
+
+          &:first-child {
+            text-transform: uppercase
+          }
+        }
+      }
+    }
+    .selectBox .containerSize.limitedStock .option span {
+      color: red
+    }
+    
+  }
+  .productOptions>div {
+    height: 40px;
+    margin-left: 20px
+  }
+  .productOptions>div:first-child {
+    margin-left: 0;
+    cursor: pointer;
+    width: 31px;
+    background: no-repeat 50%;
+    background-size: 31px;
+    background-image: url(../../img/icons/wish.svg)
+  }
+  .productOptions>div:last-child {
+    width: 30px;
+    background: no-repeat 50%;
+    background-size: 20px;
+    background-image: url(../../img/icons/cart.svg);
+    background-size: 25px;
+    cursor: pointer
+  }
+  .selectBox.active .options {
+    height: auto;
+    border: 1px solid #000
+  }
+  .optionSelectedBox {
+    text-transform: uppercase;
+  }
+}
+
+.oneProductBlock .productOptions .selectBox .containerSize.limitedStock .option span { 
+  color: red;
+}
+
+.selectBox .containerSize.soldOut {
+  cursor: default;
+  pointer-events: none
+}
+
+.selectBox .containerSize.soldOut input {
+  cursor: default
+}
+
+.selectBox .containerSize.soldOut:hover {
+  background-color: transparent
+}
+
+.selectBox .containerSize.soldOut .option {
+  cursor: default
+}
+
+.selectBox .containerSize.soldOut .option span {
+  color: #8c8c8c
+}
+.optionsOpen select{
+-webkit-appearance: none;
+-moz-appearance:    none;
+appearance:         none;
+border: 1px solid #000;
+padding-left: 10px;
+height: 40px;
+cursor: pointer;
+background-image: url(../../img/icons/arrowDown.svg);
+background-repeat: no-repeat;
+background-position: 95%;
+white-space: nowrap;
+overflow: hidden;
+line-height: 40px;
+width: 100%;
+border-radius: 0;
+background-color: transparent;
+max-width: 170px;
+}
+.optionsOpen select:focus{
+outline: 0;
+}
+
+.selectBox .containerSize {
+  display: block;
+  position: relative;
+  height: 40px;
+  border-bottom: 1px solid #000
+}
+
+.selectBox .containerSize input:checked~.option {
+  background-color: rgba(0, 0, 0, .3)
+}
+
+.selectBox .containerSize input {
+  position: absolute;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0;
+  margin-bottom: 0;
+  z-index: 1
+}
+
+.selectBox .containerSize:hover input~.option {
+  background-color: rgba(0, 0, 0, .3)
+}
+
+.selectBox .containerSize:last-child {
+  border: 0
+}
+
+.selectBox .sizeGide {
+  font-size: 14px;
+  line-height: 40px;
+  border-bottom: 1px solid #000;
+  padding-left: 40px;
+  background-image: url(../../img/icons/sizdeGid.svg);
+  background-repeat: no-repeat;
+  background-position: 7px;
+  text-decoration: underline;
+  cursor: pointer
+}
+
+
+
+.selectBox.active .optionSelectedBox {
+  background-image: url(../../img/icons/arrowUp.svg);
+}
+
+.selectBox.selectBoxQty .options {
+  left: auto;
+  right: 0
+}
