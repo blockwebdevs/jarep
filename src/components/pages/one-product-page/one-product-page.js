@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 
+import {Container, Row, Col} from 'react-bootstrap'
+
 import  withJaService  from '../../hoc';
 import TextSlide from './text-slide';
 
@@ -25,26 +27,26 @@ class OneProductPage extends Component {
     return (
       <main>
         <div className="oneProductContent">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8">
-                <div className="row galleryProduct">
-                  <div className="col-md-6 col-12 ">
+          <Container>
+            <Row>
+              <Col md={8}>
+                <Row className="row galleryProduct">
+                  <Col md={6}>
                     <img src={oneProduct.img} alt="product" className="mainImg"/>                    
-                  </div>
-                  <div className="col-md-6 col-12 ">
+                  </Col>
+                  <Col md={6}>
                     <img src={oneProduct.img} alt="product" className="mainImg"/>                    
-                  </div>
+                  </Col>
                   <p>this product is beauty</p>
-                  <div className="col-md-6 col-12 ">
+                  <Col md={6}>
                     <img src={oneProduct.img} alt="product" className="mainImg"/>                    
-                  </div>
-                  <div className="col-md-6 col-12 ">
+                  </Col>
+                  <Col md={6}>
                     <img src={oneProduct.img} alt="product" className="mainImg"/>                    
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 posRelative">
+                  </Col>
+                </Row>
+              </Col>
+              <Col md={4} className="posRelative">
                 <div className="descrItem">
                   <div>
                       <div className="name">
@@ -56,9 +58,9 @@ class OneProductPage extends Component {
                   </div>
                 </div>
                 <TextSlide />
-              </div> 
-            </div>
-          </div>
+              </Col> 
+            </Row>
+          </Container>
         </div>
       </main>
     )

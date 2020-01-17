@@ -1,5 +1,8 @@
 import menu from './menu'
 import products from './products'
+import user from './user'
+
+
 export default class JaService {
     getMenuList(lang) {
         let body = menu[lang]
@@ -21,6 +24,19 @@ export default class JaService {
                 body = item
             }  
         })
+        return body
+    }
+    login(login, password){
+        let body = null
+        user.login.find(item => {
+            if(item.login === login && item.password === password) {
+                body = item.id
+            }
+        })
+        return body
+    }
+    getUser(id){
+        let body = user.logged[id]
         return body
     }
 }

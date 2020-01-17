@@ -1,27 +1,45 @@
-import React from 'react';
+import React, { Fragment, Component } from 'react';
+import { Modal } from 'react-bootstrap';
+import { getQueriesForElement } from '@testing-library/react';
 
-import './modal.scss'
-
-export default class Auth extends React.Component {
-
+class Auth extends Component {
   state = {
-    show: false
+    show: false,
+    name: '',
+    password: ''
   }
 
-  render(){
-    if(!this.state.show) {
-      return <div></div>
-    }
+  handleClose = () => this.setState({show: false})
+  handleShow = () => this.setState({show: true})
+  getName = (e) => this.setState({name: e.target.value})
+  getPassword = (e) => this.setState({password: e.target.value})
+
+  render() {
+    const { name, password, show } = this.state
     return (
-      <div id="auth" className="modal">
-        <div className="modal-content">
-          <form>
-            <input type="text" placeholder="name" />
-            <input type="password" placeholder="*****" />
-            <input type="submit" value="send" />
-          </form>
-        </div>
-      </div>
+      <Fragment>
+        <a onClick={this.handleShow}></a>
+        <Modal id="auth" show={show} onHide={this.handleClose}>
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="headerModal">
+                Login
+                <div onClick={this.handleClose} className="close">X</div>
+              </div>
+              <form onSubmit={(e) => {
+                  e.preventDefault();
+                  this.props.getUser(name, password)
+                }}>
+                <input onChange={this.getName} type="text" placeholder="name" />
+                <input onChange={this.getPassword} type="password" placeholder="*****" />
+                <input onClick={this.handleClose} type="submit" value="send" />
+              </form>
+            </div>
+          </div>
+        </Modal>
+      </Fragment>
     )
   }
 }
+
+export default Auth;

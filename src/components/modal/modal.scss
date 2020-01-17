@@ -15,6 +15,15 @@
   margin-right: auto;
   background-color: #fff;
   padding: 40px;
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
 }
 .modal-content form { 
   width: 100%;

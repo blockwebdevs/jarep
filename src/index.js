@@ -9,6 +9,8 @@ import ScrollToTop from './components/scroll-to-top'
 import JaService from './services';
 import  { JaProvider } from './components/ja-service-context';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import store from './store';
 
 import './main.css'

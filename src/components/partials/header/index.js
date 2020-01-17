@@ -5,10 +5,10 @@ import { Auth } from '../../modal'
 import UserSettingsContainer from './user-settings.js';
 
 const Header = () => {
+    
     return (
         <div className="headerHome">
             <header>
-                <Auth />
                 <div className="headerBlock">
                     <Nav />
                     <UserSettingsContainer />

@@ -1,7 +1,50 @@
-[
-  {
-    "id": "0",
-    "login": "admin",
-    "password": "admin" 
+{
+  "login":
+    [
+      {
+        "id": "001",
+        "name": "mooond",
+        "login": "admin",
+        "password": "admin" 
+      },
+      {
+        "id": "002",
+        "name": "banda",
+        "login": "banda",
+        "password": "paswword" 
+      },
+      {
+        "id": "003",
+        "name": "goolie",
+        "login": "goolie",
+        "password": "admin3" 
+      }
+  ],
+  "logged": {
+    "001": {
+      "id": "001",
+      "name": "mooond",
+      "cartCount": "4",
+      "wishCount": "2",
+      "langue": "en"
+    },
+    "002": {
+      "id": "002",
+      "name": "banda",
+      "login": "banda",
+      "password": "paswword",
+      "cartCount": "2",
+      "wishCount": "1",
+      "langue": "ro"
+    },
+    "003": {
+      "id": "003",
+      "name": "goolie",
+      "login": "goolie",
+      "password": "admin3",
+      "cartCount": "4",
+      "wishCount": "7",
+      "langue": "en"
+    }
   }
-]
+}

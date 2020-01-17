@@ -1,9 +1,12 @@
 const initialState = {
+    logged: false,
     menuList: [],
     productsList: [],
     categoryList: [],
     oneProduct: [],
-    lang: 'en'
+    lang: 'en',
+    user: null,
+    userInfo: null
 }
 
 const reducer = (state = initialState, action) => {
@@ -28,11 +31,22 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 categoryList: action.payload
             }
-            case "FETCH_PRODUCT_LOADED":
-                return {
-                    ...state,
-                    oneProduct: action.payload
-                }
+        case "FETCH_PRODUCT_LOADED":
+            return {
+                ...state,
+                oneProduct: action.payload
+            }
+        case "FETCH_LOGIN":
+            return {
+                ...state,
+                logged: true,
+                user: action.payload
+            }
+        case "FETCH_USER":
+            return {
+                ...state,
+                userInfo: action.payload
+            }
         default:
             return state
     }
