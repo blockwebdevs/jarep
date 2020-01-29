@@ -4,8 +4,7 @@ const SlideItem = ({item}) => {
 
   return (
     <div className="item">
-      <img alt="img" src={item.src} />
-      <div>{ item.id }</div>
+      <img alt="img" src={item.srcImg} />
     </div>
   )
 }

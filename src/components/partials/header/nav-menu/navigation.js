@@ -1,75 +1,96 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom'
+import { bindActionCreators } from 'redux'
 
+import ErrorIndicator from '../../../error-indicator'
+import Spinner from '../../../spinner'
+import {compose} from '../../../../utils'
 import  withJaService  from '../../../hoc';
 import ProductsList from './products-lists';
 import CollectionList from './collections-list';
 
+import { fetchMenuNavList } from '../../../../actions'
+
 import logo from './logo.svg';
 
-class Nav extends React.Component {
+const Nav = ({menuNavList}) => {
+  return (
+    <ul className="menuLeft">
+      <li className="itemButt">
+          <span>{ menuNavList.var.categories }</span>
+          <ProductsList list={ menuNavList.categories }  />
+      </li>
+      <li className="itemButt">
+          <span> { menuNavList.var.collections }  </span>
+          <CollectionList list={ menuNavList.collections } condition="collections" />
+      </li>
+      <li className="itemButt">
+          <span><a href="/">  { menuNavList.var.outlet } </a></span>
+      </li>
+      <li className="itemButt">
+          <span><a href="/">new</a></span>
+      </li>
+      <li className="itemButt">
+          <span>
+            <Link to="/" className="logo">
+              <img src={logo} alt=""/>
+            </Link>
+          </span>
+      </li>
+    </ul>
+  )
+}
+
+class NavContainer extends React.Component {
 
   componentDidMount() {
-    const { jaService, lang } = this.props;
-    const data = jaService.getMenuList(lang);
-    this.props.menuListLoaded(data);
+    const { lang } = this.props
+    this.props.fetchMenuNavList(lang);
   }
 
   componentDidUpdate(prevProps) {
-    const { jaService, lang } = this.props;
-    if (prevProps.lang !== this.props.lang) {
-      const data = jaService.getMenuList(lang);
-      this.props.menuListLoaded(data);
+    const { lang } = this.props
+    if (prevProps.lang !== this.props.lang  ) {
+      this.props.fetchMenuNavList(lang);
     }
   }
 
+
   render() {
-    const { menuList } = this.props
+    const { menuNavList, loading, error } = this.props
+    if(loading) {
+      return <Spinner />
+    }
+
+    if(error) {
+      return <ErrorIndicator />
+    }
+
     return (
-      <ul className="menuLeft">
-        <li className="itemButt">
-            <span>produse</span>
-            <ProductsList list={ menuList.products }  />
-        </li>
-        <li className="itemButt">
-            <span>colectii</span>
-            <CollectionList list={ menuList.collections } condition="collections" />
-        </li>
-        <li className="itemButt">
-            <span><a href="/">outlet</a></span>
-        </li>
-        <li className="itemButt">
-            <span><a href="/">new</a></span>
-        </li>
-        <li className="itemButt">
-            <span>
-              <Link to="/" className="logo">
-                <img src={logo} alt=""/>
-              </Link>
-            </span>
-        </li>
-      </ul>
+      <Nav menuNavList={menuNavList} />
     )
   }
 }
 
-const mapDispatchToProps = (dispatch) => {
+
+
+const mapDispatchToProps = (dispatch, {jaService}) => {
+  return bindActionCreators({
+      fetchMenuNavList: fetchMenuNavList(jaService)
+  }, dispatch)
+}
+
+const mapStateToProps = ({ lang, navList: {menuNavList, error, loading}}) => {
   return {
-    menuListLoaded: (newList) => {
-      dispatch({
-        type: 'FETCH_MENULIST_LOADED',
-        payload: newList
-      })
-    }
+    menuNavList,
+    lang,
+    loading,
+    error
   }
 }
 
-const mapStateToProps = ({menuList, lang}) => {
-  return {
-    menuList,
-    lang
-  }
-}
+export default compose(
+  withJaService(),
+  connect(mapStateToProps, mapDispatchToProps))(NavContainer)
 
-export default withJaService()(connect(mapStateToProps, mapDispatchToProps)(Nav))

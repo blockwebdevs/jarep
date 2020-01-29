@@ -9,7 +9,6 @@ import { Auth } from '../../../modal';
 
 class UserSettingsContainer extends React.Component {
 
-
   componentDidUpdate(prevProps) {
     const { jaService, user, userLoaded } = this.props;
     if(user !== null && prevProps.user !== user) {
@@ -36,7 +35,6 @@ class UserSettingsContainer extends React.Component {
 
   render() {
     const { lang, logged, userInfo } = this.props
-    console.log(userInfo)
 
     const loggedFunction = () => {
       if(logged) {return <Link to="/client"></Link> }

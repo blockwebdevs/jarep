@@ -1,21 +1,35 @@
+import navList from './navList'
+
 const initialState = {
+    navList: {
+        menuNavList: [],
+        loading: true,
+        error: null
+    },
     logged: false,
-    menuList: [],
     productsList: [],
     categoryList: [],
     oneProduct: [],
     lang: 'en',
     user: null,
-    userInfo: null
+    userInfo: null,
+    
 }
 
 const reducer = (state = initialState, action) => {
     switch(action.type) {
-        case 'FETCH_MENULIST_LOADED':
+        case 'FETCH_MENUNAVLIST_REQUEST':
+        case 'FETCH_MENUNAVLIST_SUCCES':
+        case 'FETCH_MENUNAVLIST_FAILURE':
             return {
                 ...state,
-                menuList: action.payload  
+                navList: navList(state, action)
             }
+        case 'FETCH_AUTH_REQUEST':
+            return {
+                ...state
+            }
+        
         case "FETCH_PRODUCTSSLIDEHOME_LOADED":
             return {
                 ...state,

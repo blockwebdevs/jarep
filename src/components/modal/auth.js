@@ -1,21 +1,30 @@
 import React, { Fragment, Component } from 'react';
 import { Modal } from 'react-bootstrap';
-import { getQueriesForElement } from '@testing-library/react';
+import {bindActionCreators} from 'redux';
+import { connect } from 'react-redux';
+
+import {compose} from '../../utils'
+import  withJaService  from '../hoc';
+
+import { auth } from '../../actions'
 
 class Auth extends Component {
+
+  componentDidMount() {
+    this.props.auth('1993albu@gmail.com', 'japroject2020')
+  }
   state = {
-    show: false,
-    name: '',
-    password: ''
+    email: null,
+    password: null
   }
 
   handleClose = () => this.setState({show: false})
   handleShow = () => this.setState({show: true})
-  getName = (e) => this.setState({name: e.target.value})
+  getEmail = (e) => this.setState({email: e.target.value})
   getPassword = (e) => this.setState({password: e.target.value})
 
   render() {
-    const { name, password, show } = this.state
+    const { email, password, show, onAuth } = this.state
     return (
       <Fragment>
         <a onClick={this.handleShow}></a>
@@ -28,11 +37,11 @@ class Auth extends Component {
               </div>
               <form onSubmit={(e) => {
                   e.preventDefault();
-                  this.props.getUser(name, password)
+                  onAuth()
                 }}>
-                <input onChange={this.getName} type="text" placeholder="name" />
-                <input onChange={this.getPassword} type="password" placeholder="*****" />
-                <input onClick={this.handleClose} type="submit" value="send" />
+                <input onChange={this.getEmail}  type="email" placeholder="email..." required />
+                <input onChange={this.getPassword} type="password" placeholder="*****" required />
+                <input type="submit" value="send" />
               </form>
             </div>
           </div>
@@ -42,4 +51,18 @@ class Auth extends Component {
   }
 }
 
-export default Auth;
+const mapDispatchToProps = (dispatch, {jaService}) => {
+  return bindActionCreators({
+      auth: auth()
+  }, dispatch)
+}
+
+const mapStateToProps = ({ lang }) => {
+  return {
+    lang
+  }
+}
+
+export default compose(
+  withJaService(),
+  connect(mapStateToProps, mapDispatchToProps))(Auth)

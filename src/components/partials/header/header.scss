@@ -1,0 +1,321 @@
+header {
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  position: fixed
+}
+
+.menuLeft {
+  background-image: url(../../../img/icons/homeFon.png);
+  background-size: 10vw;
+  background-repeat: repeat;
+  background-color: #cfa874;
+  display: flex;
+  height: 60px;
+  width: 50vw;
+  align-items: center;
+  margin-bottom: 0
+}
+
+.menuLeft a,
+.menuLeft span {
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 25px;
+  line-height: 60px
+}
+
+.menuLeft li {
+  text-align: center;
+  line-height: 60px;
+  position: relative;
+  padding-right: 15px
+}
+
+.menuLeft li:nth-child(5) {
+  min-width: 120px
+}
+
+.menuLeft li:hover .subMenu {
+  opacity: 1;
+  visibility: visible
+}
+
+.menuLeft li:first-child,
+.menuLeft li:nth-child(2) {
+  text-align: left;
+  cursor: pointer
+}
+
+.menuLeft li:first-child:hover span,
+.menuLeft li:nth-child(2):hover span,
+.menuLeft li:nth-child(3) span:hover,
+.menuLeft li:nth-child(4) span:hover {
+  background-image: url(../../../img/icons/iconOnHover.svg) ;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px;
+  font-weight: bold;
+
+}
+.menuLeft > li{
+cursor: pointer;
+white-space: nowrap;
+}
+.menuLeft .itemButt.itemButtMobile{
+display: none;
+}
+.menuLeft > li.pageActive.itemButt:nth-child(1),
+.menuLeft > li.pageActive.itemButt:nth-child(2),
+.menuLeft > li.pageActive.itemButt:nth-child(3) span,
+.menuLeft > li.pageActive.itemButt:nth-child(4) span {
+background-image: url(../../../img/icons/iconOnHover.svg) !important;
+background-repeat: no-repeat;
+background-size: 20px;
+background-position: 5px;
+
+}
+.menuLeft > li.pageActive.itemButt > span{
+font-weight: bold;
+}
+.setList {
+  display: block;
+  right: -106%;
+  top: 0px;
+  min-width: 100%;
+  width: 110%;
+  position: absolute;
+  /* background-image: url(../../../img/icons/homeFon.png); */
+  background-size: 10vw;
+  background-repeat: repeat;
+  background-color: #cfa874;
+  min-height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease;
+  box-shadow: 10px 6px 10px 0 rgba(0, 0, 0, .5)
+}
+
+.menuLeft li:nth-child(5) span {
+  display: block
+}
+
+.menuLeft li:nth-child(5) a {
+  display: flex
+}
+
+.menuLeft span {
+  padding-left: 30px
+}
+
+.subMenu {
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  z-index: 2;
+  min-width: 360px;
+  background-image: url(../../../img/icons/homeFon.png);
+  background-size: 10vw;
+  background-repeat: repeat;
+  background-color: #cfa874;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5);
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.subMenu li {
+  width: 100%;
+  height: 45px;
+  text-align: left;
+  line-height: 45px;
+}
+.menuLeft .subMenu li{
+width: 100%;
+}
+.subMenu a {
+  padding-left: 30px;
+  white-space: nowrap;
+  line-height: 45px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px
+}
+.subMenu li.submenuButton{
+  position: static;
+}
+
+.subMenu li.submenuButton a{
+display: block;
+line-height: 45px;
+}
+.subMenu > li:hover > a{
+font-weight: 700;
+background-image: url(../../../img/icons/iconOnHover.svg)
+}
+.subMenu li.submenuButton .setList a:hover{
+font-weight: 700;
+background-image: url(../../../img/icons/iconOnHover.svg)
+}
+.subMenu li.submenuButton:hover > a {
+  font-weight: 700;
+  background-image: url(../../../img/icons/iconOnHover.svg)
+}
+.subMenu li.submenuButton:hover{
+background-color: #cfa874;
+}
+
+.subMenu li.submenuButton:hover .setList{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.menuCabinet {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  height: 60px;
+  width: 21vw;
+  min-width: 400px;
+  background-image: url(../../../img/icons/homeFon.png);
+  background-size: 10vw;
+  background-repeat: repeat;
+  background-color: #cfa874
+}
+
+.menuCabinet .buttMenu {
+  height: 60px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%
+}
+
+.menuCabinet .buttMenu a {
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  cursor: pointer
+}
+
+
+.menuCabinet .buttWish {
+  background-image: url(../../../img/icons/wish.svg);
+  background-size: 25px
+}
+
+.menuCabinet .buttCart {
+  background-image: url(../../../img/icons/cart.svg);
+  background-size: 18px
+}
+
+.menuCabinet .buttCart a {
+  position: relative
+}
+
+.menuCabinet .buttCart .nrArt {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  background-image: url(../../../img/icons/star.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  line-height: 27px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  top: 5px;
+  right: -7px
+}
+.menuCabinet .buttWish .nrArt {
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
+  top: 5px;
+  right: -7px;
+  line-height: 60px;
+
+}
+.menuCabinet .buttAvatar {
+  background-image: url(../../../img/icons/avatar.svg);
+  background-size: 18px;
+  cursor: pointer
+}
+
+.menuCabinet .buttSettings {
+  width: auto
+}
+
+.menuCabinet .buttSettings a {
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative
+}
+
+.menuCabinet .buttSettings .flag {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/icons/moldova.svg);
+  background-size: 20px 20px;
+  background-position: 0 center;
+  width: 50px;
+  height: 40px;
+  margin-left: 3px
+}
+
+.menuCabinet .menuOpen {
+  position: fixed;
+  background-image: url(../../../img/icons/homeFon.png);
+  background-size: 10vw;
+  background-repeat: repeat;
+  background-color: #cfa874;
+  top: 60px;
+  right: 0;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .5);
+  z-index: 1;
+  height: 0;
+  transition: height .3s ease;
+  width: 25vw;
+  min-width: 400px;
+  overflow: hidden
+}
+
+.menuCabinet .menuOpen.menuOpenDisplay {
+  height: auto
+}
+
+.menuCabinet .menuOpenResults {
+  padding: 0 20px
+}
+
+.fullWidthHeader .headerBlock {
+  background-image: url(../../../img/icons/homeFon.png);
+  background-size: 10vw;
+  background-repeat: repeat;
+  background-color: #cfa874;
+  transition: background-image .3s ease;
+}
+
+.headerBlock {
+  display: flex;
+  justify-content: space-between
+}
+.menuLeft .menuBack{
+display: none;
+}
+

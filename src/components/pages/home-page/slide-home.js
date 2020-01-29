@@ -11,19 +11,14 @@ import SlideItem from './slide.item';
 class SliderHome extends Component{
 
   componentDidMount() {
-    const { jaService, lang } = this.props;
-    const data = jaService.getProductsSlideHome(lang);
-    this.props.productsLoaded(data);
+    const { jaService } = this.props;
+    jaService.getProductsSlideHome()
+        .then(data => this.props.productsLoaded(data))
   }
-
-  componentDidUpdate(prevProps) {
-    const { jaService, lang } = this.props;
-    if (prevProps.lang !== this.props.lang) {
-      const data = jaService.getProductsSlideHome(lang);
-      this.props.productsLoaded(data);
-    }
+ 
+  componentDidUpdate() {
+    console.log('update')
   }
-  
   render() {
     const { productsList } = this.props
     const settings = {
@@ -35,8 +30,8 @@ class SliderHome extends Component{
     };
     let items;
     if(productsList !== []) {
-      items = productsList.map(item => {
-        return <SlideItem key={item.id} item={item} />
+      items = Object.entries(productsList).map(item => {
+        return <SlideItem key={item[1].id} item={item[1]} />
       })
     }
     return (
@@ -60,10 +55,9 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-const mapStateToProps = ({productsList, lang}) => {
+const mapStateToProps = ({productsList}) => {
   return {
-    productsList,
-    lang
+    productsList
   }
 }
 

@@ -1,8 +1,9 @@
 import React from 'react';
 
-import Nav from './nav-menu/navigation'
-import { Auth } from '../../modal'
+import NavContainer from './nav-menu/navigation'
 import UserSettingsContainer from './user-settings.js';
+
+import './header.scss'
 
 const Header = () => {
     
@@ -10,7 +11,7 @@ const Header = () => {
         <div className="headerHome">
             <header>
                 <div className="headerBlock">
-                    <Nav />
+                    <NavContainer />
                     <UserSettingsContainer />
                 </div>
             </header>
