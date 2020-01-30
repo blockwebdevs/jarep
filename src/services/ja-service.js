@@ -5,7 +5,8 @@ import user from './user'
 
 export default class JaService {
     _db = "japroject-28dec";
-    _url = `https://${this._db}.firebaseio.com/`
+    _url = `https://${this._db}.firebaseio.com/`;
+    _apiKey = 'AIzaSyCXqZjWEtNyhgMUarFrFnU12nxAR1Qx4gY'
 
     async getResource(url)  {
         const res = await fetch(url)
@@ -16,7 +17,7 @@ export default class JaService {
         return body;
     }
 
-    async getNavItems (langue) {
+    async getNavItems (langue="ro") {
         const res = await this.getResource(`${this._url}nav-items/${langue}.json`)
         return res;
     }
@@ -26,6 +27,20 @@ export default class JaService {
         const res = await this.getResource(`${this._url}home-page/productsSlideHome.json`)
 
         return res
+    }
+
+    async signUp(authData){
+        const res = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${this._apiKey}`,
+                {   
+                    method: 'POST', 
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(authData)
+                }
+            )
+            const body = await res.json();
+        return body;
     }
 
 

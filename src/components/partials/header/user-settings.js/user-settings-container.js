@@ -9,14 +9,7 @@ import { Auth } from '../../../modal';
 
 class UserSettingsContainer extends React.Component {
 
-  componentDidUpdate(prevProps) {
-    const { jaService, user, userLoaded } = this.props;
-    if(user !== null && prevProps.user !== user) {
-      const data = jaService.getUser(user);
-      this.props.setLang(data.langue)
-      userLoaded(data)
-    }
-  }
+  
 
   changeLang = (lang) => {
     if(lang==="ro"){
@@ -34,7 +27,9 @@ class UserSettingsContainer extends React.Component {
   }
 
   render() {
-    const { lang, logged, userInfo } = this.props
+    const { lang, logged, user } = this.props
+
+    console.log(user)
 
     const loggedFunction = () => {
       if(logged) {return <Link to="/client"></Link> }
@@ -48,11 +43,11 @@ class UserSettingsContainer extends React.Component {
       <ul className="menuCabinet">
           <li className="buttMenu buttWish">
             <a href="/">
-              <div className="nrArt">{ userInfo != null ? userInfo.wishCount : '8' }</div>
+              <div className="nrArt">{  user.wishCount }</div>
             </a>
           </li>
           <li className="buttMenu buttCart">
-            <a href="/"><div className="nrArt">{ userInfo != null ? userInfo.cartCount : '8' }</div></a>
+            <a href="/"><div className="nrArt">{ user.cartCount }</div></a>
           </li>
           <li className="buttMenu buttAvatar">
             {

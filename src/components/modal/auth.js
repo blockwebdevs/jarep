@@ -10,9 +10,6 @@ import { auth } from '../../actions'
 
 class Auth extends Component {
 
-  componentDidMount() {
-    this.props.auth('1993albu@gmail.com', 'japroject2020')
-  }
   state = {
     email: null,
     password: null
@@ -23,8 +20,15 @@ class Auth extends Component {
   getEmail = (e) => this.setState({email: e.target.value})
   getPassword = (e) => this.setState({password: e.target.value})
 
+  onSubmit = (e) => {
+    const { email, password} = this.state
+    e.preventDefault();
+    this.props.auth(email, password)
+  }
+
   render() {
-    const { email, password, show, onAuth } = this.state
+    const {  show } = this.state
+    console.log(this.props.user)
     return (
       <Fragment>
         <a onClick={this.handleShow}></a>
@@ -35,10 +39,7 @@ class Auth extends Component {
                 Login
                 <div onClick={this.handleClose} className="close">X</div>
               </div>
-              <form onSubmit={(e) => {
-                  e.preventDefault();
-                  onAuth()
-                }}>
+              <form onSubmit={this.onSubmit}>
                 <input onChange={this.getEmail}  type="email" placeholder="email..." required />
                 <input onChange={this.getPassword} type="password" placeholder="*****" required />
                 <input type="submit" value="send" />
@@ -53,13 +54,14 @@ class Auth extends Component {
 
 const mapDispatchToProps = (dispatch, {jaService}) => {
   return bindActionCreators({
-      auth: auth()
+      auth: auth(jaService)
   }, dispatch)
 }
 
-const mapStateToProps = ({ lang }) => {
+const mapStateToProps = ({ lang, user }) => {
   return {
-    lang
+    lang,
+    user
   }
 }
 

@@ -1,4 +1,5 @@
 import navList from './navList'
+import auth from './auth'
 
 const initialState = {
     navList: {
@@ -11,7 +12,19 @@ const initialState = {
     categoryList: [],
     oneProduct: [],
     lang: 'en',
-    user: null,
+    user: {
+        token: null,
+        id: 'null',
+        role: 'guest',
+        wishCount: '0',
+        cartCount: '3',
+        settings: {
+            langue: 'en',
+            country: 'Your country'
+        },
+        loading: true,
+        error: null
+    },
     userInfo: null,
     
 }
@@ -26,10 +39,12 @@ const reducer = (state = initialState, action) => {
                 navList: navList(state, action)
             }
         case 'FETCH_AUTH_REQUEST':
+        case 'FETCH_AUTH_SUCCES':
+        case 'FETCH_AUTH_FAILURE':
             return {
-                ...state
+                ...state,
+                user: auth(state, action)
             }
-        
         case "FETCH_PRODUCTSSLIDEHOME_LOADED":
             return {
                 ...state,

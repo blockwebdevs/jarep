@@ -1,5 +1,3 @@
-import axios from 'axios'
-
 const fetchMenuNavListLoaded = (menuNavList) => {
   return {
     type: 'FETCH_MENUNAVLIST_SUCCES',
@@ -18,10 +16,10 @@ const fetchMenuNavListError = (error) => {
   }
 }
 
-const authSucces = (autData) => {
+const authSucces = (authData) => {
   return {
     type: 'FETCH_AUTH_SUCCES',
-    payload: autData
+    payload: authData
   }
 }
 const authStart = () => {
@@ -29,16 +27,16 @@ const authStart = () => {
     type: 'FETCH_AUTH_REQUEST'
   }
 }
-const authFilure = (error) => {
+const authFailure = (error) => {
   return {
     type: 'FETCH_AUTH_FAILURE',
     payload: error
   }
 }
 
-const fetchMenuNavList = (jaService) => (lang) => (dispatch) => {
+const fetchMenuNavList = (jaService) => (langue) => (dispatch) => {
     dispatch(fetchMenuNavListRequested());
-    jaService.getNavItems(lang)
+    jaService.getNavItems(langue)
             .then(data => dispatch(fetchMenuNavListLoaded(data)))
             .catch(err => dispatch(fetchMenuNavListError(err)));
 }
@@ -46,20 +44,15 @@ const fetchMenuNavList = (jaService) => (lang) => (dispatch) => {
 const auth = (jaService) => ( email, password ) => (dispatch) => {
   dispatch(authStart())
   const authData = {
-    email: 'test@gmail.com',
-    password: 'japroject2020',
+    email,
+    password,
     returnSecureToken: true
   }
-  fetch('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCXqZjWEtNyhgMUarFrFnU12nxAR1Qx4gY', 
-            {
-              method: 'POST', 
-              headers: {
-                  'Content-Type': 'application/json',
-              },
-              body: JSON.stringify(authData)
-          })
-          .then(res => console.log(res.json()))
+  jaService.signUp(authData)
+    .then(res => dispatch(authSucces(res)))
+    .catch(err => dispatch(authFailure(err)))
 }
+  
 
 export {
   fetchMenuNavList,

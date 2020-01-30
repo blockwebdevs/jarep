@@ -45,20 +45,21 @@ const Nav = ({menuNavList}) => {
 class NavContainer extends React.Component {
 
   componentDidMount() {
-    const { lang } = this.props
-    this.props.fetchMenuNavList(lang);
+    const { langue } = this.props
+    this.props.fetchMenuNavList(langue);
   }
 
   componentDidUpdate(prevProps) {
-    const { lang } = this.props
-    if (prevProps.lang !== this.props.lang  ) {
-      this.props.fetchMenuNavList(lang);
+    const { langue } = this.props
+    if (prevProps.langue !== this.props.langue  ) {
+      this.props.fetchMenuNavList(langue);
     }
   }
 
 
   render() {
     const { menuNavList, loading, error } = this.props
+    console.log(menuNavList)
     if(loading) {
       return <Spinner />
     }
@@ -81,10 +82,10 @@ const mapDispatchToProps = (dispatch, {jaService}) => {
   }, dispatch)
 }
 
-const mapStateToProps = ({ lang, navList: {menuNavList, error, loading}}) => {
+const mapStateToProps = ({ user: {settings}, navList: {menuNavList, error, loading}}) => {
   return {
     menuNavList,
-    lang,
+    langue: settings.langue,
     loading,
     error
   }
