@@ -25,7 +25,7 @@ export default class JaService {
     
     async getProductsSlideHome() {
         const res = await this.getResource(`${this._url}home-page/productsSlideHome.json`)
-
+        console.log(res + "fffffff")
         return res
     }
 

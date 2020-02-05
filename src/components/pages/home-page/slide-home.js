@@ -10,17 +10,24 @@ import SlideItem from './slide.item';
 
 class SliderHome extends Component{
 
+  state = {
+    productsList: []
+  }
+
   componentDidMount() {
-    const { jaService } = this.props;
-    jaService.getProductsSlideHome()
-        .then(data => this.props.productsLoaded(data))
+    const { jaService, langue } = this.props;
+    
+    jaService.getProductsSlideHome().then(data => {
+      this.setState({productsList: data})
+    });
   }
  
   componentDidUpdate() {
     console.log('update')
   }
   render() {
-    const { productsList } = this.props
+    const { productsList } = this.state
+    console.log(productsList)
     const settings = {
       dots: false,
       infinite: true,
@@ -29,7 +36,7 @@ class SliderHome extends Component{
       slidesToScroll: 1
     };
     let items;
-    if(productsList !== []) {
+    if(productsList !== [] && productsList !== null) {
       items = Object.entries(productsList).map(item => {
         return <SlideItem key={item[1].id} item={item[1]} />
       })

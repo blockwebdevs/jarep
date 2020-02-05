@@ -37,9 +37,7 @@ const App = () => {
                     path="/product/:id"
                     render={({ match, location }) => {
                         const { id } = match.params
-                        // const { categoryName, index } = location.query
-                        const categoryName = "dresses"
-                        const index = "0"
+                        const { categoryName, index } = location.query
 
                         return <OneProductPage id={id} index={index} categoryName={categoryName} />
                     }}
