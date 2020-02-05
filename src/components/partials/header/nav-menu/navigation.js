@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom'
-import { bindActionCreators } from 'redux'
 
 import ErrorIndicator from '../../../error-indicator'
 import Spinner from '../../../spinner'
@@ -10,7 +9,6 @@ import  withJaService  from '../../../hoc';
 import ProductsList from './products-lists';
 import CollectionList from './collections-list';
 
-import { fetchMenuNavList } from '../../../../actions'
 
 import logo from './logo.svg';
 
@@ -18,11 +16,11 @@ const Nav = ({menuNavList}) => {
   return (
     <ul className="menuLeft">
       <li className="itemButt">
-          <span>{ menuNavList.var.categories }</span>
+          <span> { menuNavList.var.categories }</span>
           <ProductsList list={ menuNavList.categories }  />
       </li>
       <li className="itemButt">
-          <span> { menuNavList.var.collections }  </span>
+          <span> { menuNavList.var.collections } </span>
           <CollectionList list={ menuNavList.collections } condition="collections" />
       </li>
       <li className="itemButt">
@@ -44,23 +42,33 @@ const Nav = ({menuNavList}) => {
 
 class NavContainer extends React.Component {
 
+  state = {
+    menuNavList: [],
+    loading: true,
+    error: null
+  }
+
   componentDidMount() {
-    const { langue } = this.props
-    this.props.fetchMenuNavList(langue);
+    const { langue, jaService } = this.props
+    jaService.getNavItems(langue).then(data => {
+      this.setState({menuNavList: data, loading: false})
+    })
   }
 
   componentDidUpdate(prevProps) {
-    const { langue } = this.props
+    const { langue, jaService } = this.props
     if (prevProps.langue !== this.props.langue  ) {
-      this.props.fetchMenuNavList(langue);
+      jaService.getNavItems(langue).then(data => {
+        this.setState({menuNavList: data, loading: false})
+      })
     }
   }
 
 
   render() {
-    const { menuNavList, loading, error } = this.props
-    console.log(menuNavList)
-    if(loading) {
+    const { loading, error, menuNavList } = this.state
+    
+    if(loading || menuNavList == []) {
       return <Spinner />
     }
 
@@ -76,22 +84,18 @@ class NavContainer extends React.Component {
 
 
 
-const mapDispatchToProps = (dispatch, {jaService}) => {
-  return bindActionCreators({
-      fetchMenuNavList: fetchMenuNavList(jaService)
-  }, dispatch)
-}
-
-const mapStateToProps = ({ user: {settings}, navList: {menuNavList, error, loading}}) => {
+// const mapDispatchToProps = (dispatch, {jaService}) => {
+//   return bindActionCreators({
+//       fetchMenuNavList: fetchMenuNavList(jaService)
+//   }, dispatch)
+// }
+const mapStateToProps = ({ langue } ) => {
   return {
-    menuNavList,
-    langue: settings.langue,
-    loading,
-    error
+    langue
   }
 }
 
 export default compose(
   withJaService(),
-  connect(mapStateToProps, mapDispatchToProps))(NavContainer)
+  connect(mapStateToProps, null))(NavContainer)
 

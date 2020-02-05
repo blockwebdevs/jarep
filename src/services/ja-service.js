@@ -17,7 +17,7 @@ export default class JaService {
         return body;
     }
 
-    async getNavItems (langue="ro") {
+    async getNavItems (langue="en") {
         const res = await this.getResource(`${this._url}nav-items/${langue}.json`)
         return res;
     }
@@ -43,21 +43,38 @@ export default class JaService {
         return body;
     }
 
+    async postProducts(products){
+        const res = await fetch(`${this._url}/products.json`,
+                {   
+                    method: 'PUT', 
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(products)
+                }
+            )
+            const body = await res.json();
+        return body;
+    }
+    
+    async getCategoryProducts(category, langue="en") {
+        const res = await this.getResource(`${this._url}products/${langue}/${category}.json`)
+        return res; 
+    }
+
+    async getOneProduct(langue = "en", category, id){
+        const res = await this.getResource(`${this._url}products/${langue}/${category}/${id}.json`)
+        return res;
+    }
+
 
     getProductsCategory(lang, category) {
         let body = products.product[lang][category].slice(0, 3)
         return body
     }
-    getOneProduct(lang, id) {
-        let array = products.oneProduct[lang];
-        let body = null
-        array.map(item => {
-            if(item.id === id) {
-                body = item
-            }  
-        })
-        return body
-    }
+
+
+
     login(login, password){
         let body = null
         user.login.find(item => {
@@ -72,3 +89,6 @@ export default class JaService {
         return body
     }
 }
+
+const dd = new JaService();
+dd.postProducts(products)

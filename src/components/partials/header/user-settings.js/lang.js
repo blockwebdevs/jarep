@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Lang = ({ lang, changeLang }) => {
-  return <div onClick={() => changeLang(lang)} >{lang}</div>
+const Lang = ({ langue, changeLang }) => {
+  return <div onClick={() => changeLang(langue)} >{langue}</div>
 }
 
 export default Lang

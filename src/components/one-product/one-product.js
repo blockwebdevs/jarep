@@ -5,20 +5,28 @@ import './one-product.scss'
 
 import OptionsProduct from './options-product';
 
-const OneProduct = ({item}) => {
-  const go = "/product/" + item.id
+const OneProduct = ({item, categoryName, index}) => {
+  
   return (
     <div className="oneProductBlock">
-      <a href="oneProductPage.html"><img src={item.img} alt=""/></a>
+      <Link to={
+        {pathname: `/product/${item.id}`, 
+          query: {
+          categoryName, index}}
+      }><img src={item.imgSrc[0]} alt=""/></Link>
       <div className="productDescr">
-        <Link to={go}>
+        <Link to={
+        {pathname: `/product/${item.id}`, 
+          query: {
+          categoryName, index}}
+        }>
           {item.name}
         </Link>
         <div className="price">
           <span> { item.priceReduce } lei</span>
           <span> { item.price } lei</span>
         </div>
-        <OptionsProduct item={item} />
+        <OptionsProduct categoryName={categoryName} item={item} />
       </div>
     </div>
   )

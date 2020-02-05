@@ -5,8 +5,13 @@ import { HomePage, ClientArea, OneCategoryPage, OneProductPage } from '../pages'
 import { Header, Footer } from '../partials';
 
 import './app.sass'
- 
+
 const App = () => {
+    if(localStorage.getItem("langue") == null){
+        localStorage.setItem("langue", "ro")
+    }
+    // localStorage.removeItem("cartCount")
+    console.log(localStorage.getItem("cartCount"))
     return (
         <Fragment>
 
@@ -25,14 +30,18 @@ const App = () => {
                     path="/category/:id"
                     render={({ match }) => {
                         const { id } = match.params
-                        return <OneCategoryPage id={id} />
+                        return <OneCategoryPage categoryName={id} />
                     }}
                     />
                 <Route
                     path="/product/:id"
-                    render={({ match }) => {
+                    render={({ match, location }) => {
                         const { id } = match.params
-                        return <OneProductPage id={id} />
+                        // const { categoryName, index } = location.query
+                        const categoryName = "dresses"
+                        const index = "0"
+
+                        return <OneProductPage id={id} index={index} categoryName={categoryName} />
                     }}
                     />
             </Switch>

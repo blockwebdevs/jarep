@@ -9,14 +9,29 @@ import { Auth } from '../../../modal';
 
 class UserSettingsContainer extends React.Component {
 
-  
+  componentDidMount() {
+    const langue = localStorage.getItem("langue");
+    if(langue !== this.props.langue) {
+      this.props.setLang(langue)
+    }
+    if(JSON.parse(localStorage.getItem("cartCount")) !== null) {
+      const count = JSON.parse(localStorage.getItem("cartCount")).length
+      this.props.setCartCount(count)
+    }
+    if(JSON.parse(localStorage.getItem("wishCount")) !== null) {
+      const count = JSON.parse(localStorage.getItem("wishCount")).length
+      this.props.setWishCount(count)
+    }
+  }
 
-  changeLang = (lang) => {
-    if(lang==="ro"){
+  changeLang = (langue) => {
+    if(langue==="ro"){
       this.props.setLang('en')
+      localStorage.setItem("langue", "en")
     }
     else {
       this.props.setLang("ro")
+      localStorage.setItem("langue", "ro")
     }
   }
 
@@ -27,12 +42,10 @@ class UserSettingsContainer extends React.Component {
   }
 
   render() {
-    const { lang, logged, user } = this.props
-
-    console.log(user)
-
+    const { langue, user, cartCount, wishCount } = this.props
+    
     const loggedFunction = () => {
-      if(logged) {return <Link to="/client"></Link> }
+      if(user) {return <Link to="/client"></Link> }
       else {
         return (
           <Auth getUser={this.getUser} />
@@ -43,11 +56,11 @@ class UserSettingsContainer extends React.Component {
       <ul className="menuCabinet">
           <li className="buttMenu buttWish">
             <a href="/">
-              <div className="nrArt">{  user.wishCount }</div>
+              <div className="nrArt"> { wishCount }</div>
             </a>
           </li>
           <li className="buttMenu buttCart">
-            <a href="/"><div className="nrArt">{ user.cartCount }</div></a>
+            <a href="/"><div className="nrArt">{ cartCount }</div></a>
           </li>
           <li className="buttMenu buttAvatar">
             {
@@ -55,7 +68,7 @@ class UserSettingsContainer extends React.Component {
             }
           </li>
           <li className="buttMenu buttSettings">
-            <Lang lang={lang} changeLang={this.changeLang}  />
+            <Lang langue={langue} changeLang={this.changeLang}  />
               {/* <a href="/" data-target="#settings" data-toggle="modal">mdl / en /<span className="flag"> </span></a> */}
           </li>
       </ul>
@@ -71,27 +84,27 @@ const mapDispatchToProps = (dispatch) => {
         payload: newLang
       })
     },
-    userLogin: (newUser) => {
+    setCartCount: (cartCount) => {
       dispatch({
-        type: "FETCH_LOGIN",
-        payload: newUser
+        type: 'FETCH_CARTCOUNT',
+        payload: cartCount
       })
     },
-    userLoaded: (newUser) => {
+    setWishCount: (wishCount) => {
       dispatch({
-        type: "FETCH_USER",
-        payload: newUser
+        type: 'FETCH_WISHCOUNT',
+        payload: wishCount
       })
     }
   }
 }
 
-const mapStateToProps = ({lang, logged, user, userInfo}) => {
+const mapStateToProps = ({ langue, user, cartCount, wishCount }) => {
   return {
-    lang,
-    logged, 
+    langue,
     user,
-    userInfo
+    cartCount,
+    wishCount
   }
 }
 

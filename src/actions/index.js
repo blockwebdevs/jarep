@@ -37,7 +37,9 @@ const authFailure = (error) => {
 const fetchMenuNavList = (jaService) => (langue) => (dispatch) => {
     dispatch(fetchMenuNavListRequested());
     jaService.getNavItems(langue)
-            .then(data => dispatch(fetchMenuNavListLoaded(data)))
+            .then(data => {
+              dispatch(fetchMenuNavListLoaded(data))
+            })
             .catch(err => dispatch(fetchMenuNavListError(err)));
 }
 

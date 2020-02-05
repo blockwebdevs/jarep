@@ -1,983 +1,855 @@
 {
-  "productsSlideHome": 
-    {
-      "ro": [
-        {
-          "id": "0",
-          "src": "http://ja.publicitate.top/images/sets/md/5da8e74866be7web.1920x2560.2B-2.vintage-min.jpg"
-        },
-        {
-          "id": "1",
-          "src": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg"
-        },
-        {
-          "id": "2",
-          "src": "http://ja.publicitate.top/images/sets/md/5dc57cb1596beweb.1920x2560.1A-2.retro-min.jpg"
-        }
-      ],
-      "en": [
-        {
-          "id": "0",
-          "src": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg"
-        },
-        {
-          "id": "1",
-          "src": "http://ja.publicitate.top/images/sets/md/5da8e74866be7web.1920x2560.2B-2.vintage-min.jpg"
-        },
-        {
-          "id": "2",
-          "src": "http://ja.publicitate.top/images/sets/md/5da8e74866be7web.1920x2560.2B-2.vintage-min.jpg"
-        },
-        {
-          "id": "3",
-          "src": "http://ja.publicitate.top/images/sets/md/5dc57cb1596beweb.1920x2560.1A-2.retro-min.jpg"
-        }
-      ]
-    },
-  "product":
-    {
-      "ro": {
-        "dresses": [
-          {
-            "id": "01",
-            "name": "Rochie Alba",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "02",
-            "name": "Rochie neagra",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "03",
-            "name": "Rochie rosie",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "04",
-            "name": "Rochie verde",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          }
+  "en": {
+    "dresses": [
+      {
+        "id": "0",
+        "name": "DRESS RETRO FREEDOM WITH BALLS",
+        "color": "Black striped",
+        "price": "230",
+        "priceReduce": "200",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dd0ec2ecb4feIMG_0741-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ec2bc1bfdIMG_0746-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ec2ca9b7dIMG_0745-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ec2d5d206IMG_0744-min.JPG"
         ],
-        "skirts": [
-          {
-            "id": "05",
-            "name": "Fusta Alba",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
           },
-          {
-            "id": "06",
-            "name": "Fusta neagra",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
-          {
-            "id": "07",
-            "name": "Fusta rosie",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
-          {
-            "id": "08",
-            "name": "Fusta verde",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
           }
-        ]
+        }
       },
-      "en": {
-        "dresses": [
-          {
-            "id": "01",
-            "name": "Dress white",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "02",
-            "name": "Dress black",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "03",
-            "name": "Dress red",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "04",
-            "name": "Dress green",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          }
+      {
+        "id": "1",
+        "name": "DRESS RETRO FREEDOM BLACK",
+        "color": "Black striped",
+        "price": "185",
+        "priceReduce": "150",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dd0ebb56b80cIMG_0797-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ebb3501ffIMG_0801-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ebb40b9a6IMG_0799-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ebb4b75f3IMG_0798-min.JPG"
         ],
-        "skirts": [
-          {
-            "id": "05",
-            "name": "Skirt white",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "06",
-            "name": "Skirt black",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "07",
-            "name": "Skirt red",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          },
-          {
-            "id": "08",
-            "name": "Skirt green",
-            "price": "230",
-            "priceReduce": "200",
-            "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-            "size": {
-              "m": {
-                "title": "m",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "s": {
-                "title": "s",
-                "stock": "5",
-                "statut": "Sunt citeva"
-              },
-              "l": {
-                "title": "l",
-                "stock": "0",
-                "statut": "Stoc epuizat"
-              },
-              "xl": {
-                "title": "xl",
-                "stock": "12",
-                "statut": "Stoc prezent"
-              }
-            }
-          }
-        ]
-      } 
-    },
-  "oneProduct": {
-    "ro": [
-      {
-        "id": "01",
-        "name": "Rochie Alba",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
           }
         }
       },
       {
-        "id": "02",
-        "name": "Rochie neagra",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "id": "2",
+        "name": "DRESS PRINT COSMOSPACE SOLAR BLACK",
+        "color": "Red striped",
+        "price": "190",
+        "priceReduce": "180",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5e3565fbcafbe1.jpg",
+          "https://juliaallert.com/images/products/og/5e3567678682c3.jpg",
+          "https://juliaallert.com/images/products/og/5e3567776c5702.jpg",
+          "https://juliaallert.com/images/products/og/5e3567776c5702.jpg"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
           }
         }
       },
       {
-        "id": "03",
-        "name": "Rochie rosie",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "id": "3",
+        "name": "DRESS RETRO NAVY",
+        "color": "White striped",
+        "price": "170",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dc5a62aad010web.1920x2560.1A-5.retro-min-1.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a631dfe61web.1920x2560.1A-4.retro-min-1.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a6398aaccweb.1920x2560.1C-5.retro-min.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a6405c50dweb.1920x2560.1C-6.retro-min.jpg"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
-          }
-        }
-      },
-      {
-        "id": "04",
-        "name": "Rochie verde",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-        "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "s": {
-            "title": "s",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "l": {
-            "title": "l",
-            "stock": "0",
-            "statut": "Stoc epuizat"
-          },
-          "xl": {
-            "title": "xl",
-            "stock": "12",
-            "statut": "Stoc prezent"
-          }
-        }
-      },
-      {
-        "id": "05",
-        "name": "Fusta Alba",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-        "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "s": {
-            "title": "s",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "l": {
-            "title": "l",
-            "stock": "0",
-            "statut": "Stoc epuizat"
-          },
-          "xl": {
-            "title": "xl",
-            "stock": "12",
-            "statut": "Stoc prezent"
-          }
-        }
-      },
-      {
-        "id": "06",
-        "name": "Fusta neagra",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-        "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "s": {
-            "title": "s",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "l": {
-            "title": "l",
-            "stock": "0",
-            "statut": "Stoc epuizat"
-          },
-          "xl": {
-            "title": "xl",
-            "stock": "12",
-            "statut": "Stoc prezent"
-          }
-        }
-      },
-      {
-        "id": "07",
-        "name": "Fusta rosie",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-        "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "s": {
-            "title": "s",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "l": {
-            "title": "l",
-            "stock": "0",
-            "statut": "Stoc epuizat"
-          },
-          "xl": {
-            "title": "xl",
-            "stock": "12",
-            "statut": "Stoc prezent"
-          }
-        }
-      },
-      {
-        "id": "08",
-        "name": "Fusta verde",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
-        "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "s": {
-            "title": "s",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
-          "l": {
-            "title": "l",
-            "stock": "0",
-            "statut": "Stoc epuizat"
-          },
-          "xl": {
-            "title": "xl",
-            "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
           }
         }
       }
     ],
-    "en": [
+    "skirts": [
       {
-        "id": "01",
-        "name": "Dress white",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "id": "00",
+        "name": "SKIRT -SUNDRESS ECO-LEATHER BEIGE",
+        "color": "Black striped",
+        "price": "180",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dab8dd3edb7dweb.1920x2560.3D-1.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dab8de5d0567web.1920x2560.3D-2.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dab8e1be1df5web.1920x2560.3D-3.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dbf647ef30a8web.1920x2560.3D-5.business-min.jpg"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
+          }
+        }
+      },
+      {
+        "id": "01",
+        "name": "SKIRT STRIPED VINTAGE",
+        "color": "Black striped",
+        "price": "180",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dab8dd3edb7dweb.1920x2560.3D-1.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dab8de5d0567web.1920x2560.3D-2.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dab8e1be1df5web.1920x2560.3D-3.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dbf647ef30a8web.1920x2560.3D-5.business-min.jpg"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
           }
         }
       },
       {
         "id": "02",
-        "name": "Dress black",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "name": "SKIRT ECO-LEATHER ROMANTIC NOTE",
+        "color": "Rose",
+        "price": "180",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dac46da1971cweb.1920x2560.3C-1.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dac46f2e2216web.1920x2560.3C-7.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dac46f3bd5a3web.1920x2560.3C-2iubka.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dbf64eb11523web.1920x2560.3C-5.business-min.jpg"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
           }
         }
       },
       {
         "id": "03",
-        "name": "Dress red",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "name": "SUNDRESS ECO-LEATHER NAVY",
+        "color": "Navy",
+        "price": "180",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dc5a7cea3ca6web.1920x2560.2B-2.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a7da13daaweb.1920x2560.2B-3.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a7f54f71bweb.1920x2560.2B-6.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a7fe44f82web.1920x2560.2B-4.vintage-min.jpg"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
+          }
+        }
+      }
+    ],
+    "pants": [
+      {
+        "id": "100",
+        "name": "COAT #VINTAGE TEXTURED BORDO",
+        "color": "Burgundy",
+        "price": "230",
+        "priceReduce": "200",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dae53dac2cbcweb.1920x2560.2B-2.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dae53d9e7a09web.1920x2560.2B-3.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dae53ee5ca14web.1920x2560.2B-4.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5e2652921e467IMG_4291-min.PNG"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
           }
         }
       },
       {
-        "id": "04",
-        "name": "Dress green",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "id": "101",
+        "name": "COAT #VINTAGE BROWN",
+        "color": "Brown",
+        "price": "185",
+        "priceReduce": "150",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5e25c39da762aIMG_4427-min-min.JPG",
+          "https://juliaallert.com/images/products/og/5e25c3c587979IMG_4425-min-min.JPG",
+          "https://juliaallert.com/images/products/og/5e25c3c640537IMG_4426-min-min.JPG",
+          "https://juliaallert.com/images/products/og/5e25c3d02e5fdIMG_4423-min-min.jpg"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
           }
         }
       },
       {
-        "id": "05",
-        "name": "Skirt white",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "id": "102",
+        "name": "COAT #VINTAGE NAVY",
+        "color": "NAVY",
+        "price": "190",
+        "priceReduce": "180",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5e264f4fa1b34IMG_4802-min.PNG",
+          "https://juliaallert.com/images/products/og/5e264f4e4dd80IMG_4805-min.JPG",
+          "https://juliaallert.com/images/products/og/5e264f4ef057aIMG_4804-min.JPG",
+          "https://juliaallert.com/images/products/og/5e264f9886487IMG_4807.JPG"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
           }
         }
       },
       {
-        "id": "06",
-        "name": "Skirt black",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "id": "103",
+        "name": "COAT SOULMATE LIMITED EDITION",
+        "color": "Beige",
+        "price": "170",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dae546c76358web.1920x2560.5A-2.Twins-min.jpg",
+          "https://juliaallert.com/images/products/og/5dae546bb5ad8web.1920x2560.5A-3.Twins-min.jpg",
+          "hhttps://juliaallert.com/images/products/og/5dae546d28a02web.1920x2560.5A-1.Twins-min.jpg",
+          "https://juliaallert.com/images/products/og/5db4eb78c01f1web.1920x2560.5A-4.Twins-min.jpg"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
+          }
+        }
+      }
+    ]
+  },
+  "ro": {
+    "dresses": [
+      {
+        "id": "0",
+        "name": "ROCHIE RETRO FREEDOM CU BULINE",
+        "color": "Black striped",
+        "price": "230",
+        "priceReduce": "200",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dd0ec2ecb4feIMG_0741-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ec2bc1bfdIMG_0746-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ec2ca9b7dIMG_0745-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ec2d5d206IMG_0744-min.JPG"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
           }
         }
       },
       {
-        "id": "07",
-        "name": "Skirt red",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "id": "1",
+        "name": "ROCHIE RETRO FREEDOM BLACK",
+        "color": "Black striped",
+        "price": "185",
+        "priceReduce": "150",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dd0ebb56b80cIMG_0797-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ebb3501ffIMG_0801-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ebb40b9a6IMG_0799-min.JPG",
+          "https://juliaallert.com/images/products/og/5dd0ebb4b75f3IMG_0798-min.JPG"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
           }
         }
       },
       {
-        "id": "08",
-        "name": "Skirt green",
-        "price": "230",
-        "priceReduce": "200",
-        "img": "http://ja.publicitate.top/images/sets/md/5dc56e102e40dweb.1920x2560.1A-4.retro-min.jpg",
+        "id": "2",
+        "name": "ROCHIE PRINT COSMOSPACE SOLAR BLACK",
+        "color": "Red striped",
+        "price": "190",
+        "priceReduce": "180",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5e3565fbcafbe1.jpg",
+          "https://juliaallert.com/images/products/og/5e3567678682c3.jpg",
+          "https://juliaallert.com/images/products/og/5e3567776c5702.jpg",
+          "https://juliaallert.com/images/products/og/5e3567776c5702.jpg"
+        ],
         "size": {
-          "m": {
-            "title": "m",
-            "stock": "5",
-            "statut": "Sunt citeva"
-          },
           "s": {
             "title": "s",
             "stock": "5",
-            "statut": "Sunt citeva"
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
           },
           "l": {
             "title": "l",
             "stock": "0",
-            "statut": "Stoc epuizat"
+            "statut": "Out of stocks"
           },
           "xl": {
             "title": "xl",
             "stock": "12",
-            "statut": "Stoc prezent"
+            "statut": "Stock available"
+          }
+        }
+      },
+      {
+        "id": "3",
+        "name": "ROCHIE RETRO NAVY",
+        "color": "White striped",
+        "price": "170",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dc5a62aad010web.1920x2560.1A-5.retro-min-1.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a631dfe61web.1920x2560.1A-4.retro-min-1.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a6398aaccweb.1920x2560.1C-5.retro-min.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a6405c50dweb.1920x2560.1C-6.retro-min.jpg"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
+          }
+        }
+      }
+    ],
+    "skirts": [
+      {
+        "id": "00",
+        "name": "FUSTĂ-SARAFAN ECO-PIELE BEIGE",
+        "color": "Black striped",
+        "price": "180",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dab8dd3edb7dweb.1920x2560.3D-1.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dab8de5d0567web.1920x2560.3D-2.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dab8e1be1df5web.1920x2560.3D-3.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dbf647ef30a8web.1920x2560.3D-5.business-min.jpg"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
+          }
+        }
+      },
+      {
+        "id": "01",
+        "name": "FUSTĂ DUNGATĂ VINTAGE",
+        "color": "Black striped",
+        "price": "180",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dab8dd3edb7dweb.1920x2560.3D-1.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dab8de5d0567web.1920x2560.3D-2.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dab8e1be1df5web.1920x2560.3D-3.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dbf647ef30a8web.1920x2560.3D-5.business-min.jpg"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
+          }
+        }
+      },
+      {
+        "id": "02",
+        "name": "FUSTĂ ECO-PIELE ROMANTIC NOTE",
+        "color": "Rose",
+        "price": "180",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dac46da1971cweb.1920x2560.3C-1.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dac46f2e2216web.1920x2560.3C-7.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dac46f3bd5a3web.1920x2560.3C-2iubka.business-min.jpg",
+          "https://juliaallert.com/images/products/og/5dbf64eb11523web.1920x2560.3C-5.business-min.jpg"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
+          }
+        }
+      },
+      {
+        "id": "03",
+        "name": "SARAFAN ECO-PIELE NAVY",
+        "color": "Navy",
+        "price": "180",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dc5a7cea3ca6web.1920x2560.2B-2.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a7da13daaweb.1920x2560.2B-3.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a7f54f71bweb.1920x2560.2B-6.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dc5a7fe44f82web.1920x2560.2B-4.vintage-min.jpg"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
+          }
+        }
+      }
+    ],
+    "pants": [
+      {
+        "id": "100",
+        "name": "PALTON #VINTAGE TEXTURAT BORDO",
+        "color": "Burgundy",
+        "price": "230",
+        "priceReduce": "200",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dae53dac2cbcweb.1920x2560.2B-2.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dae53d9e7a09web.1920x2560.2B-3.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5dae53ee5ca14web.1920x2560.2B-4.vintage-min.jpg",
+          "https://juliaallert.com/images/products/og/5e2652921e467IMG_4291-min.PNG"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
+          }
+        }
+      },
+      {
+        "id": "101",
+        "name": "PALTON #VINTAGE BROWN",
+        "color": "Brown",
+        "price": "185",
+        "priceReduce": "150",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5e25c39da762aIMG_4427-min-min.JPG",
+          "https://juliaallert.com/images/products/og/5e25c3c587979IMG_4425-min-min.JPG",
+          "https://juliaallert.com/images/products/og/5e25c3c640537IMG_4426-min-min.JPG",
+          "https://juliaallert.com/images/products/og/5e25c3d02e5fdIMG_4423-min-min.jpg"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
+          }
+        }
+      },
+      {
+        "id": "102",
+        "name": "PALTON #VINTAGE NAVY",
+        "color": "NAVY",
+        "price": "190",
+        "priceReduce": "180",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5e264f4fa1b34IMG_4802-min.PNG",
+          "https://juliaallert.com/images/products/og/5e264f4e4dd80IMG_4805-min.JPG",
+          "https://juliaallert.com/images/products/og/5e264f4ef057aIMG_4804-min.JPG",
+          "https://juliaallert.com/images/products/og/5e264f9886487IMG_4807.JPG"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
+          }
+        }
+      },
+      {
+        "id": "103",
+        "name": "PALTON SOULMATE LIMITED EDITION",
+        "color": "Beige",
+        "price": "170",
+        "priceReduce": "160",
+        "imgSrc": [
+          "https://juliaallert.com/images/products/og/5dae546c76358web.1920x2560.5A-2.Twins-min.jpg",
+          "https://juliaallert.com/images/products/og/5dae546bb5ad8web.1920x2560.5A-3.Twins-min.jpg",
+          "hhttps://juliaallert.com/images/products/og/5dae546d28a02web.1920x2560.5A-1.Twins-min.jpg",
+          "https://juliaallert.com/images/products/og/5db4eb78c01f1web.1920x2560.5A-4.Twins-min.jpg"
+        ],
+        "size": {
+          "s": {
+            "title": "s",
+            "stock": "5",
+            "statut": "Only few items"
+          },
+          "m": {
+            "title": "m",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "l": {
+            "title": "l",
+            "stock": "0",
+            "statut": "Out of stocks"
+          },
+          "xl": {
+            "title": "xl",
+            "stock": "12",
+            "statut": "Stock available"
           }
         }
       }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux'
 
 class OptionsProduct extends Component {
   state = {
@@ -50,14 +51,71 @@ class OptionsProduct extends Component {
     }
   }
 
+  addTo = (setWhat, cons, item, cart) => {
+    const countStorage = JSON.parse(localStorage.getItem(cons))
+    
+    if(countStorage == null) {
+      let arr = [];
+      arr = [...arr, item]
+      
+      localStorage.setItem(cons, JSON.stringify(arr))
+      setWhat(JSON.parse(localStorage.getItem(cons)).length)
+
+    } else {
+
+      const boolWish = countStorage
+      let bool = true
+
+      for(let i in boolWish) {
+        if(boolWish[i]["id"] == item.id){
+          if(!cart) {
+            bool = false
+            break
+          }
+          if(boolWish[i]["selectedSize"] !== item.selectedSize) {
+            bool = true
+            break
+          } else {
+            bool = false
+            break
+          }
+        }
+      }
+
+      if(bool) {
+        const newCount = [...countStorage, item]
+        localStorage.setItem(cons, JSON.stringify(newCount))
+        setWhat(JSON.parse(localStorage.getItem(cons)).length)
+      }
+    }
+  }
+
   addToCart = () => {
     const {addCart, selectedSize } = this.state
+    const { item, setCartCount, categoryName } = this.props
+    const cart = true
+
+    const newItem = {
+      id: item.id,
+      categoryName,
+      selectedSize
+    }
     if(addCart) {
-      console.log("product: " + this.props.item.id + "\nsize: " + selectedSize)
+      const cons = "cartCount"
+      this.addTo(setCartCount, cons, newItem, cart)
     } else {
       console.log("select size")
     }
-    
+  }
+
+  addToWish = () => {
+    const { item, setWishCount, categoryName } = this.props
+    const newItem = {
+      id: item.id,
+      categoryName
+    }
+    const cons = "wishCount"
+    this.addTo(setWishCount, cons, newItem)
   }
 
   render() {
@@ -79,7 +137,7 @@ class OptionsProduct extends Component {
     })
     return (
       <div className="productOptions">
-        <div className="iconWish"></div>
+        <div className="iconWish" onClick={this.addToWish}></div>
         <div className="selectBox">
           <div className="optionSelectedBox" onClick={this.show}> { selectedSize } </div>
           <div className="options">
@@ -94,4 +152,21 @@ class OptionsProduct extends Component {
   }
 }
 
-export default OptionsProduct
+const mapDispatchToProps = (dispatch) => {
+  return {
+    setCartCount: (cartCount) => {
+      dispatch({
+        type: 'FETCH_CARTCOUNT',
+        payload: cartCount
+      })
+    },
+    setWishCount: (wishCount) => {
+      dispatch({
+        type: 'FETCH_WISHCOUNT',
+        payload: wishCount
+      })
+    }
+  }
+}
+
+export default connect(null, mapDispatchToProps)(OptionsProduct)
