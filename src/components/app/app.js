@@ -10,8 +10,8 @@ const App = () => {
     if(localStorage.getItem("langue") == null){
         localStorage.setItem("langue", "ro")
     }
+    // localStorage.removeItem("wishCount")
     // localStorage.removeItem("cartCount")
-    console.log(localStorage.getItem("cartCount"))
     return (
         <Fragment>
 
@@ -22,7 +22,7 @@ const App = () => {
                     path="/"
                     component={HomePage}
                     exact />
-                <Route
+                {/* <Route
                     path="/client-area"
                     component={ClientArea}
                     />
@@ -41,7 +41,7 @@ const App = () => {
 
                         return <OneProductPage id={id} index={index} categoryName={categoryName} />
                     }}
-                    />
+                    /> */}
             </Switch>
 
             <Footer />

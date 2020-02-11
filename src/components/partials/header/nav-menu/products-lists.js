@@ -7,7 +7,6 @@ const ProductsList = ({list}) => {
   let items = []
   if(list !== undefined){
     items = Object.keys(list).map(item => {
-      console.log(item)
       return <li key={item}><ListItem item={list[item]} goTo={item} /></li>
     })
   }

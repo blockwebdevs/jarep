@@ -1,17 +1,21 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 
 import SliderHome from './slide-home';
+
+import './home.scss'
+import breaking from './breaking.png'
 
 const HomePage = () => {
     return (
         <div className="homeContent">
             <div className="homeLeft">
                 <div className="imgBloc">
-                    <img src={require('../../../img/icons/breaking.png')} alt="" />
+                    <img src={breaking} alt="" />
                     <div className="butts">
-                    <a href="/" className="butt">mergin in outlet</a>
-                    <a href="/" className="butt">vezi colectiile</a>
+                        <Link to="/" className="butt">mergi in outlet</Link>
+                        <Link to="/" className="butt">vezi colectiile</Link>
                     </div>
                     <div className="deliveryBloc">
                     <div className="item">

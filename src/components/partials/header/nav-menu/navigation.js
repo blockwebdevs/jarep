@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom'
 
 import ErrorIndicator from '../../../error-indicator'
-import Spinner from '../../../spinner'
 import {compose} from '../../../../utils'
 import  withJaService  from '../../../hoc';
 import ProductsList from './products-lists';
@@ -69,7 +68,7 @@ class NavContainer extends React.Component {
     const { loading, error, menuNavList } = this.state
     
     if(loading || menuNavList == []) {
-      return <Spinner />
+      return <div className="menuLeft"></div>
     }
 
     if(error) {

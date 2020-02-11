@@ -83,6 +83,17 @@ class OptionsProduct extends Component {
       }
 
       if(bool) {
+
+        if(cart) {
+          const el = document.getElementById('cartHeader')
+          el.classList.add('animate')
+          this.interval(el)
+        } else {
+          const el = document.getElementById('wishHeader')
+          el.classList.add('animate')
+          this.interval(el)
+        }
+
         const newCount = [...countStorage, item]
         localStorage.setItem(cons, JSON.stringify(newCount))
         setWhat(JSON.parse(localStorage.getItem(cons)).length)
@@ -116,6 +127,13 @@ class OptionsProduct extends Component {
     }
     const cons = "wishCount"
     this.addTo(setWishCount, cons, newItem)
+  }
+
+  interval(el) {
+    setTimeout(() => {
+      el.classList.remove('animate')
+      console.log('remove')
+    }, 1000)
   }
 
   render() {

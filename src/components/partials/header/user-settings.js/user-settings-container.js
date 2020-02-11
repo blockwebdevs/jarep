@@ -54,13 +54,13 @@ class UserSettingsContainer extends React.Component {
 
     return (
       <ul className="menuCabinet">
-          <li className="buttMenu buttWish">
-            <a href="/">
-              <div className="nrArt"> { wishCount }</div>
-            </a>
+          <li id="wishHeader" className="buttMenu buttWish">
+            <Link to="/">
+              <input className="nrArt" onChange={this.animateWish} type="text" value={wishCount} readOnly />
+            </Link>
           </li>
-          <li className="buttMenu buttCart">
-            <a href="/"><div className="nrArt">{ cartCount }</div></a>
+          <li id="cartHeader" className="buttMenu buttCart">
+            <Link to="/"><input className="nrArt" onChange={this.animateCart} type="text" value={cartCount} readOnly /></Link>
           </li>
           <li className="buttMenu buttAvatar">
             {
